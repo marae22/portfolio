@@ -44,6 +44,7 @@ googleAnalytics = ""
 		slogan     = "Uxj"
 		subtitle   = "I have known my whole life that I can draw a picture and balance a check book but I didn’t know that it would lead me to where I am today..."
 		buttonText = "Click to learn more about me"
+		buttonT = "Click for more"
 
 
 	# About section
@@ -51,6 +52,7 @@ googleAnalytics = ""
 		headline    = "My Projects"
 		description = "hello"
 		buttonText  = "MORE!"
+		buttonT = "TEST"
 
 
 	# Service section
