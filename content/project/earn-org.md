@@ -6,7 +6,8 @@ subHeadline = ""
 title = "EARN"
 projectDate = "March 2017"
 heroImage= "/images/leaves.png"
-css = ['/css/project.css', '/css/earn.css']
+screenshot = "/images/screenShots.png"
+css = ['/css/project.css']
 
 +++
 
