@@ -6,7 +6,7 @@ header{
 }
 
 header .header-content{
-  margin-top: 5rem;
+  margin-top: 3rem;
   padding: 4.5em 15px 0 0;
 }
 
@@ -19,8 +19,13 @@ section{
   padding: 20px 0;
 }
 
+.date{
+  margin: 0;
+  font-size: 1.2rem
+}
+
 .btn-new{
-  margin-top: 2rem;
+  margin: 1rem 0 1rem 0;
   height: 4rem;
   width: 13rem;
   background-color: #F2811D;
@@ -28,7 +33,13 @@ section{
   border-radius: 4rem;
   font-size: 13px;
   box-shadow: 5px 5px 8px #333;
+  color: #fff;
 }
+
+/*.btn-new:hover{
+  background-color: red;
+}*/
+
 
 .title{
   color: #fff;
@@ -77,10 +88,14 @@ section{
   flex-direction: column;
 }
 
-.screenshot{
+.image-center{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.screenshot{
+    width: 90%;
 }
 
 .bg-secondary{

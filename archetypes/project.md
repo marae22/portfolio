@@ -8,6 +8,22 @@ heroImage= ""
 mainButton = ""
 css = ['/css/project.css']
 
+[params]
+
+
+[params.overview]
+  overview = ""
+  teamDuration = ""
+
+[params.outcome]
+  outcome = ""
+
+[params.reflections]
+  reflections = ""
+
+
+
+
 +++
 <!--headers-->
 # Hello World

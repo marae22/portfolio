@@ -1,0 +1,406 @@
+.image-center{
+  display: flex;
+  justify-content: center;
+}
+
+.money-trail{
+  background-image: url("/earn-images/moneyTrail.png");
+  background-repeat: no-repeat;
+  background-position: 1rem 17rem;
+  background-size: auto 98%;
+  padding: 0;
+}
+
+.btn-new{
+  margin-top: 10rem;
+  height: 4rem;
+  width: 13rem;
+  background-color: #0D5741;
+  border: none;
+  border-radius: 4rem;
+  font-size: 13px;
+  box-shadow: 5px 5px 8px #333;
+  color: #fff;
+}
+
+.btn-new:hover{
+  background-color: red;
+}
+
+.screenshot{
+  box-shadow: 2px 3px 5px darkgrey;
+}
+
+.bg-reflections{
+  background-image: url('/images/leaves.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 30rem;
+  width: auto;
+  padding-bottom: 2em;
+}
+
+.bg-secondary{
+  background-image: url("/earn-images/sprouts.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.research-title{
+  color: #fff;
+}
+
+/*RESEARCH SECTION*/
+.money-tree{
+  width: 48%;
+}
+
+.section-title{
+  float:right;
+  font-size: 2.6rem;
+  font-weight: 600;
+  margin: 1rem 5.5rem 0 0;
+  color: #0D5741;
+}
+
+.section-title2{
+  float:right;
+  font-size: 2.6rem;
+  font-weight: 600;
+  margin: -13rem 1rem 0 0;
+  color: #0D5741;
+}
+
+.credit1{
+  float: right;
+  width: 10rem;
+  font-size: 1rem;
+  color: #0D5741;
+  margin: -9.5rem 5rem 0 0;
+}
+
+.freq-Apps{
+  width: 12rem;
+  height: auto;
+  float: right;
+  margin: -8rem 2rem 0 0;
+}
+
+.info-back{
+  background-color: #C6E0B8;
+  margin: -1rem 0 5rem 1rem;
+  border-radius: 10px;
+  height: 5rem;
+  width: 21rem;
+}
+
+.pie{
+  width: 80%;
+  margin: -.5rem 0 0 1.5rem;
+
+}
+
+.pie-back{
+  background-color: #C6E0B8;
+  margin: -1rem 0 3rem 3rem;
+  border-radius: 10px;
+  width: 189px;
+  height: 189px;
+}
+
+.pie-text{
+  font-family: futura, cursive, sans-serif;
+  padding: 1rem 0 0 2rem;
+}
+
+.p-android{
+  font-family: futura, cursive, sans-serif;
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+.info-back2{
+  background-color: #C6E0B8;
+  margin: -17rem 3rem 0 0;
+  border-radius: 10px;
+  height: 10rem;
+  width: 10rem;
+  float: right;
+}
+
+.computer-img{
+  width: 50%;
+  height: auto;
+  margin: 0 3rem 0 0;
+  float: right;
+}
+
+.sarah-me{
+  width: 50%;
+  margin: -7rem 16rem 1rem 0;
+  float: right;
+}
+
+.img-titles2{
+    font-size: 2.6rem;
+    font-weight: 600;
+    float: right;
+    margin: 35rem 0 0 3.5rem;
+    color: #0D5741;
+    width:30rem;
+}
+
+.text-inside-2{
+  margin: 0 0 0 2.5rem;
+  width: 35rem;
+}
+
+.text-inside-list{
+  color: #333;
+}
+.gathered-container{
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+
+.info-back3-1{
+  background-color: #C6E0B8;
+  border-radius: 10px;
+  width: 35rem;
+  margin: 2rem 0 0 2.5rem;
+}
+
+.img-titles3{
+    font-size: 2.6rem;
+    font-weight: 600;
+    float: right;
+    margin: 5rem 0 1rem 3.5rem;
+    color: #0D5741;
+}
+
+.text-inside{
+  padding:1rem 2rem 1rem 2rem;
+  margin: 0;
+}
+
+.platforms{
+  width: 80%;
+  margin-top: 2rem;
+  align-self: center;
+}
+
+.zendesk{
+  width: 15rem;
+  font-size: 12px;
+  margin: 1rem 0 0 3rem;
+}
+
+.wordPress{
+  width: 16rem;
+  font-size: 12px;
+  float: right;
+  margin: -3.5rem 3rem 0 0;
+}
+
+.initial-proto{
+  font-size: 2.6rem;
+  font-weight: 600;
+  float: right;
+  margin: 3rem 0 .5rem 3.5rem;
+  color: #0D5741;
+}
+
+.initial-proto2{
+  font-size: 2.6rem;
+  font-weight: 600;
+  float: right;
+  margin: 2rem 0 .5rem 3.5rem;
+  color: #0D5741;
+}
+
+.initial-proto3{
+  font-size: 2.6rem;
+  font-weight: 600;
+  float: right;
+  width: 30rem;
+  margin: 45rem 0 .5rem 3.5rem;
+  color: #0D5741;
+}
+
+.initial-proto4{
+  font-size: 2.6rem;
+  font-weight: 600;
+  float: right;
+  width: 30rem;
+  margin: 30rem 0 .5rem 3.5rem;
+  color: #0D5741;
+}
+
+.sketch1{
+  width: 25rem;
+  margin: 2rem 2rem 0 0;
+  float: right;
+  box-shadow: .3rem .1rem .2rem darkgrey;
+}
+
+.sketch2{
+  width: 25rem;
+  margin: -12rem 6rem 0 0;
+  float: right;
+  box-shadow: .3rem .1rem .2rem darkgrey;
+}
+
+.sketch3{
+  width: 25rem;
+  margin: -12rem 10rem 0 0;
+  box-shadow: .3rem .1rem .2rem darkgrey;
+  float: right;
+}
+
+.sketch4{
+  width: 25rem;
+  margin: -12rem 0 0 5rem;
+  box-shadow: .3rem .1rem .2rem darkgrey;
+}
+
+.sketch5{
+  width: 25rem;
+  margin: -12rem 0 0 2rem;
+  box-shadow: .3rem .1rem .2rem darkgrey;
+}
+
+.code{
+  width: 60%;
+  margin: 2rem 0 -8rem 7rem;
+  box-shadow: .6rem .2rem .5rem darkgrey;
+}
+
+.code2{
+  width: 90%;
+  margin: 2rem 0 0 2rem;
+  box-shadow: .6rem .2rem .5rem darkgrey;
+}
+
+.info-back3-2{
+  background-color: #C6E0B8;
+  border-radius: 10px;
+  width: 25rem;
+  margin: 2rem 0 0 7rem;
+}
+
+.text-inside-center{
+  padding:1rem 2rem 1rem 2rem;
+  margin: 0;
+  text-align: center;
+}
+
+.info-back3-3{
+  background-color: #C6E0B8;
+  border-radius: 10px;
+  width: 35rem;
+  margin: 2rem 0 0 2.5rem;
+}
+
+.synthesis1{
+  border: 5px solid #fff;
+  width: 50%;
+  float: right;
+  margin: 3rem 2rem 0 0;
+}
+
+.synthesis2{
+  border: 5px solid #fff;
+  width: 50%;
+  float: right;
+  margin: -19rem 18rem 0 0;
+}
+
+.synthesis3{
+  border: 1px solid #fff;
+  width: 60%;
+  float: right;
+  margin: -13rem 2rem 0 0;
+}
+
+.synthesis4{
+  width: 60%;
+  float: right;
+  margin: 2rem 5rem 0 0;
+}
+
+.synthesis5{
+  width: 60%;
+  float: right;
+  margin: -10rem 13rem 0 0;
+}
+
+.synthesis6{
+  width: 60%;
+  float: right;
+  margin: -15rem 2rem 0 0;
+}
+
+.sketch6{
+  width: 25rem;
+  margin: 2rem 2rem 0 0;
+  float: right;
+  box-shadow: .3rem .1rem .2rem darkgrey;
+}
+
+.sketch7{
+  width: 25rem;
+  margin: -12rem 6rem 0 0;
+  float: right;
+  box-shadow: .3rem .1rem .2rem darkgrey;
+}
+
+.sketch8{
+  width: 25rem;
+  margin: -12rem 10rem 0 0;
+  box-shadow: .3rem .1rem .2rem darkgrey;
+  float: right;
+}
+
+.bg-third{
+  background-color: #E5F1DF;
+  margin: 2rem 0 0 0;
+}
+
+.outcomes-image{
+  width: 20%;
+  margin-left: 2rem;
+  margin-top: 1.5rem
+}
+
+.img-titles9{
+  color: #0D5741;
+  float: right;
+  margin: -10rem 2rem 0 0;
+}
+
+.text-inside-9{
+  margin-left: 0;
+  padding: 1rem 1rem 0 1rem;
+}
+
+.text-inside-10{
+  color: #fff;
+  /*text-align: justify;*/
+}
+
+.img-titles10{
+  color: #FFF;
+  margin: .5rem 0 1rem 3rem;
+  letter-spacing: 1px;
+}
+
+.text-box{
+  border-radius: 5px;
+  background-color: #333;
+  width: 35rem;
+  height: auto;
+  margin-left: 0 0 2rem 2.5rem;
+  opacity: 0.80;
+}
