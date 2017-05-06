@@ -5,5 +5,8 @@
     </head>
     <body id="page-top">
       list hello world
+      {{ range .Pages }}
+      <a href='{{.Permalink}}'>{{.Title}}</a>
+      {{end}}
     </body>
 </html>

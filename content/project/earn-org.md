@@ -5,19 +5,23 @@ liveLink = "https://help.earn.org/hc/en-us"
 projectDate = "March 2017"
 heroImage = "/earn-images/earnTitle.png"
 screenShot = "/earn-images/screenShots.png"
-# title = "EARN"
+title = "EARN"
 
 sectionTitle = "RESEARCH & DESIGN"
 
-overview = "EARN.org is a non-profit organization that help low income families to learn to save. The main objective of this project was to re-design their current help center to make it easier for users to answer questions and decrease the number of tickets being submitted."
+overview = "EARN.org is a non-profit organization that help low income families to learn how to save."
+
+problem = "EARN.org is receiving too many customer support tickets."
+
+solution = "By re-designing EARN's help center we were able to empower EARN's users to answer their questions without having to submit a ticket."
 
 teamDuration = "My role was co-UX Designer with additional focus on content strategy and visual design. The duration of this project was 2 1/2 weeks."
 
 toolsMethods = [
   "Synthesize Research",
 	"Sketching",
-	"HTML & CSS Coding",
-	"Prototyping",
+	"HTML & CSS Coding using Zendesk",
+	"Prototyping using Zendesk.",
 	"Usability Testing"
 ]
 

@@ -1,13 +1,12 @@
 header{
   background-size: cover;
   background-repeat: no-repeat;
-  height: 25rem;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
 }
 
 header .header-content{
-  margin-top: 3rem;
-  padding: 4.5em 15px 0 0;
+  margin-top: 2em;
+  padding: 3em .5em 0 .5em;
 }
 
 body{
@@ -15,8 +14,46 @@ body{
   font-family: Futura, cursive, sans-serif;
 }
 
+p{
+  font-size: .8em;
+  padding: 0 1em 0 1.5em;
+}
+
 section{
   padding: 20px 0;
+}
+/*
+#back-box{
+  background-color: grey;
+}*/
+
+.sketch-container::-webkit-scrollbar {
+ display: none;
+}
+
+.sketch-container{
+  width: 100%;
+  overflow: auto;
+  height: 40vh;
+
+  display: flex;
+}
+
+.sketch-container>div{
+  height: 100%;
+  flex: 1 0 0%;
+  min-width: 90%;
+  margin-left: .5em;
+  /*padding: 2em 0 1em 0;*/
+}
+
+.sketch-container>div>img{
+  width: 90vw;
+}
+
+
+.bg-overview{
+  background-color: #F3f3f3;
 }
 
 .date{
@@ -36,10 +73,6 @@ section{
   color: #fff;
 }
 
-/*.btn-new:hover{
-  background-color: red;
-}*/
-
 
 .title{
   color: #fff;
@@ -48,7 +81,7 @@ section{
 
 .text-box-1{
   border-radius: 5px;
-  background-color: #F2811D;
+  background-color: #333;
   width: 35rem;
   height: auto;
   margin-left: 2.5rem;
@@ -76,11 +109,29 @@ section{
 
 }
 
+.design-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /*margin-left: 1em;*/
+}
+
+.usability-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.revision-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .overviewSections{
   color: #333;
-  width: 30rem;
+  font-size: .8em;
   align-self: center;
-  font-family: futura, sans-serif;
 }
 
 .section-container{
@@ -100,7 +151,7 @@ section{
 
 .bg-secondary{
   background-color: #F3F3F3;
-  height: 28rem;
+  height: auto;
   padding: 0;
 }
 
@@ -110,53 +161,45 @@ section{
   align-items: center;
   padding: 4rem 0;
 }
+
 .research-title{
   display: flex;
   justify-content: center;
   text-align: center;
-  font-size: 7rem;
-  color: #F2811D;
+  font-size: 3em;
+  color: #333;
 }
 
 /*FIRST RESEARCH SECTION*/
+.first-section{
+  width: 80%;
+}
+
 .researchDesign{
   align-self: center;
-  margin-left: 1rem;
+  /*margin-left: 1rem;*/
   padding: 0;
 }
 
 .graph1{
-  margin: 6rem 0 0 3rem;
-  align-self: flex-start;
+  margin-left: 1.5em;
+  margin-bottom: 1em;
 }
 
 .graph2{
-  float: right;
-  margin: 2rem 3rem 3rem 0;
-  align-self: flex-end;
+  /*float: right;*/
+  /*margin: 2rem 3rem 3rem 0;*/
+  /*align-self: flex-end;*/
 }
 
+.graph-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 .text-inside{
+  margin: 0 1em 1em 1em;
   padding: 2rem;
-  text-align: justify left;
-  line-height: normal;
-}
-
-.info-back{
-  border-radius: 5px;
-  background-color: #F3F3F3;
-  width: 30rem;
-  margin: 3rem 0 0 5rem;
-  /*word-spacing: .2px;*/
-  /*box-shadow: 5px 4px 12px black;*/
-}
-
-.bike-path1{
-  background-image: url("/images/bikePath1.png");
-  background-repeat: no-repeat;
-  background-position: 9rem 8rem;
-  background-size: auto 89%;
-  padding: 0;
 }
 
 /*SECOND RESEARCH SECTION*/
@@ -176,41 +219,36 @@ section{
 }
 
 .img-titles{
-  color: #F2811D;
+  color: #333;
 }
 
-.biker-one{
+.photo-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 2.2em;
+  margin-bottom: .5em;
+}
+
+.in-app-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*.biker-one{
   float: right;
   margin: 1.5rem 5rem 0 0;
-}
-
+}*/
+/*
 .biker-two{
   margin: 37rem 0 0 5rem;
-
-}
-
+}*/
+/*
 .biker-three{
   float: right;
   margin: .5rem 5rem 0 0;
-}
-
-.info-back2{
-  border-radius: 5px;
-  background-color: #F3F3F3;
-  width: 30rem;
-  margin: 24rem 0 0 5rem;
-  /*word-spacing: 0;*/
-  /*box-shadow: 5px 4px 12px black;*/
-}
-
-.quote-back{
-  border-radius: 5px;
-  background-color: #FDEBDA;
-  width: 35rem;
-  height: auto;
-  margin: 3rem 0 6rem 3rem;
-  padding: 0;
-}
+}*/
 
 /*FIRST SYNTHESIS SECTION*/
 
@@ -229,31 +267,21 @@ section{
 }
 
 .img-titles2{
-  color: #F2811D;
+  color: #333;
   margin: 2rem 0 0 3rem;
+  font-weight: 600;
 }
 
 .text-inside-list{
-  padding: 2rem 0 2rem 3rem;
-  line-height: normal;
-  color: #F2811D;
+  margin: 0 0 2rem 0;
+  padding: 0 1.3em 0 1.5em;
+  font-size: .9em;
+  color: #333;
 }
 
 .text-inside-2{
   margin-right: 2rem;
-  padding: 2rem 4rem .5rem 2rem;
-  text-align: justify left;
-  line-height: normal;
-}
-
-.info-back3{
-  border-radius: 5px;
-  background-color: #F3F3F3;
-  width: 32rem;
-  margin-left: 4rem;
-  margin-bottom: 13rem;
-  /*word-spacing: 0;*/
-  /*box-shadow: 5px 4px 12px black;*/
+  padding: 2rem 1rem .5rem 0;
 }
 
 /*SECOND SYNTHESIS SECTION*/
@@ -264,15 +292,12 @@ section{
 }
 
 .img-titles3{
-  color: #F2811D;
-  margin: 2rem 7rem 0 0;
-  float: right;
+  color: #333;
 }
 
 .text-inside-3{
-  margin: 7.5rem 0 2.5rem 3rem;
-  padding: 2rem 2rem 0 4rem;
-  line-height: normal;
+  padding: 2rem 4.5rem 0 4rem;
+  text-align: justify;
 }
 
 .bike-path4{
@@ -291,7 +316,7 @@ section{
 }
 
 .img-titles4{
-  color: #F2811D;
+  color: #333;
   margin: 3rem 0 0 6rem;
 }
 
@@ -302,19 +327,14 @@ section{
 }
 
 .img-titles5{
-  color: #F2811D;
-  margin: 1rem 0 0 0;
+  color: #333;
+  margin: 1em 0 0 1.5em;
 }
 
-.info-back-4{
-  border-radius: 5px;
-  background-color: #F3F3F3;
-  width: 30rem;
-  margin-left: 5rem;
-  margin-bottom: 3rem;
-}
 .sketch-1{
-  margin: 0 0 0 4.5rem;
+  /*margin: 0 0 0 4.5rem;*/
+  width: 80%;
+  align-self: center;
 }
 
 .images-usability{
@@ -326,21 +346,21 @@ section{
 }
 
 .usability-1{
-  width: 30rem;
+  width: 70%;
   height: auto;
   margin: 2rem 2rem .5rem 2rem;
 }
 
 .images-revision{
-  width: 30rem;
+  width: 90%;
   height: auto;
-  margin: 2rem 2rem .5rem 2rem;
+  margin: 1em 0 .5em 0;
 }
 
 .roadmap{
-  width: 20rem;
+  width: 50%;
   height: auto;
-  margin: 2rem 2rem 3rem 7.5rem;
+  margin: 1em 0 1em 0;
 }
 
 .bike-path5{
@@ -355,10 +375,20 @@ section{
 /*SECOND DESIGN SECTION*/
 .second-design-container{
   display: flex;
-  justify-content: center;
+  align-items: center;
   flex-direction: column;
-  margin-left: 3rem;
-  margin-right: 3rem;
+}
+
+.lo-fi-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hi-fi-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .circle5{
@@ -368,19 +398,9 @@ section{
 }
 
 .refined{
-  width: 30rem;
+  width: 90%;
   height: auto;
   margin: .5rem 2rem .5rem 2rem;
-}
-
-.info-back-6{
-  border-radius: 5px;
-  background-color: #F3F3F3;
-  width: 30rem;
-  margin-left: 5rem;
-  margin-top: 3rem;
-  margin-bottom: 2rem;
-  /*box-shadow: 5px 4px 12px black;*/
 }
 
 .text-inside-6{
@@ -390,15 +410,15 @@ section{
 }
 
 .lo-fi{
-  width: 30rem;
+  width: 80%;
   height: auto;
-  margin: 1rem 2rem 1rem 4.5rem;
+  margin-bottom: 1em;
 }
 
 .lo-fi1{
-  width: 28rem;
+  width: 70%;
   height: auto;
-  margin: 1rem 0 5rem 6.5rem;
+  margin-bottom: 1em;
 }
 
 .bike-path6{
@@ -416,16 +436,6 @@ section{
   margin: -10rem 0 0 2rem;
 }
 
-.info-back-7{
-  border-radius: 5px;
-  background-color: #F3F3F3;
-  width: 30rem;
-  margin-left: 5rem;
-  margin-top: 3rem;
-  margin-bottom: 2rem;
-  /*box-shadow: 5px 4px 12px black;*/
-}
-
 .text-inside-7{
   margin: 2rem 0 0 0;
   padding: 2rem 2rem 2rem 2rem;
@@ -433,35 +443,33 @@ section{
 }
 
 .hi-fi{
-  width: 15rem;
+  width: 38%;
   height: auto;
-  margin: 1rem 0 1rem 4.5rem;
+  margin-left: 1em;
 }
 
 .hi-fi2{
-  width: 15rem;
+  width: 40%;
   height: auto;
-  float: right;
-  margin: -15rem 4.5rem 1rem 0;
+  margin-left: 1em;
 }
 
 .hi-fi3{
-  width: 30rem;
+  width: 80%;
   height: auto;
-  margin: -10rem 2rem 1rem 4.5rem;
+  margin-left: 1em;
 }
 
 .img-titles6{
-  float: right;
-  color: #F2811D;
-  margin: 10rem 5.5rem 0 0;
+  color: #333;
+  margin: 1em 0 1em 0;
 }
 .img-titles7{
-  color: #F2811D;
+  color: #333;
   margin: 3rem 0 0 4rem;
 }
 .img-titles8{
-  color: #F2811D;
+  color: #333;
   margin: 3rem 0 0 9rem;
 }
 
@@ -470,25 +478,18 @@ section{
   height: auto;
 }
 
-.info-back-8{
-  border-radius: 5px;
-  background-color: #F3F3F3;
-  width: 30rem;
-  text-align: center;
-  margin-left: 5rem;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-  /*box-shadow: 5px 4px 12px black;*/
+.final-title{
+  margin: 0 0 1em 1em;
+  font-weight: 600;
+  color: #333;
 }
 
-.text-inside-8{
-  margin: 2rem 0 0 0;
-  padding: 2rem 2rem 2rem 2rem;
-  line-height: normal;
-}
-
-.final{
-  margin: 0 0 8rem 6rem;
+.final.container{
+  margin-bottom: 1em;
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  height: 65vh;
 }
 
 .bike-path7{
@@ -513,7 +514,7 @@ section{
 }
 
 .img-titles9{
-  color: #F2811D;
+  color: #333;
   float: right;
   margin: -8rem 2rem 0 0;
 }
@@ -544,7 +545,7 @@ section{
 .text-inside-10{
   margin-left: 1rem;
   padding: 1rem 2rem 1rem 2rem;
-  color: #F2811D;
+  color: #333;
 }
 
 .text-box{
@@ -566,17 +567,24 @@ section{
 
 /*MEDIA QUERYS*/
 @media (min-width:768px) {
-  .overview{
+  .overview {
+    display: flex;
     flex-direction: row;
+    width: 100%;
     justify-content: space-between;
-    padding: 0 3em;
   }
-
   .section-container{
     align-items: center;
+    max-width: 30%;
+    margin:0 1em;
   }
   .ovtitles{
     margin-left: 0;
+    font-size: 1.3em;
+  }
+  .overviewSections {
+    width: 100%;
+    font-size: 0.9em;
   }
   .bg-primary{
     height: 30rem;
