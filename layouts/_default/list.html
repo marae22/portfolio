@@ -2,11 +2,12 @@
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
     <head>
         {{ partial "head.html" . }}
+        <link rel="stylesheet" href="/css/list.css">
     </head>
     <body id="page-top">
       list hello world
       {{ range .Pages }}
-      <a href='{{.Permalink}}'>{{.Title}}</a>
+      {{ .Render "li"}}
       {{end}}
     </body>
 </html>

@@ -1,4 +1,19 @@
 {{ "<!-- SECTIONTITLE -->" | safeHTML }}
+<style>
+@media (min-width: 1020px) {
+  .bg-secondary{
+    min-height: 15em;
+  }
+
+  .bg-secondary>div{
+    min-height: 15em;
+  }
+
+  .research-title{
+    font-size: 4em;
+  }
+}
+</style>
 <section class= "bg-secondary">
   <div class="designTitle">
     <h3 class="research-title">{{ .Params.sectionTitle}}</h3>

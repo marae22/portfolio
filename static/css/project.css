@@ -20,8 +20,9 @@ p{
 }
 
 section{
-  padding: 20px 0;
+  padding:0;
 }
+
 /*
 #back-box{
   background-color: grey;
@@ -35,25 +36,33 @@ section{
   width: 100%;
   overflow: auto;
   height: 40vh;
-
+  min-height: 18rem;
+  align-items: center;
   display: flex;
+  margin-bottom: 1em;
 }
 
+.sketch-container.biker{
+  height: 18rem;
+}
+.sketch-container.usability {
+  height: 35rem;
+}
 .sketch-container>div{
   height: 100%;
   flex: 1 0 0%;
-  min-width: 90%;
   margin-left: .5em;
   /*padding: 2em 0 1em 0;*/
 }
 
-.sketch-container>div>img{
-  width: 90vw;
-}
 
 
 .bg-overview{
   background-color: #F3f3f3;
+  margin-bottom: 1em;
+}
+.final-section {
+  margin-bottom: 1em;
 }
 
 .date{
@@ -99,6 +108,7 @@ section{
   justify-content: center;
   flex-direction: column;
   margin: 0;
+  padding-bottom: 0.5em;
 }
 
 
@@ -120,6 +130,11 @@ section{
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.usability-container>img{
+  margin-bottom: 1em;
 }
 
 .revision-container{
@@ -153,6 +168,7 @@ section{
   background-color: #F3F3F3;
   height: auto;
   padding: 0;
+  margin-bottom: 1em;
 }
 
 .designTitle{
@@ -182,8 +198,9 @@ section{
 }
 
 .graph1{
-  margin-left: 1.5em;
-  margin-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .graph2{
@@ -196,6 +213,7 @@ section{
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin-bottom: 1em;
 }
 .text-inside{
   margin: 0 1em 1em 1em;
@@ -265,11 +283,13 @@ section{
   padding: 0;
   margin: -2.5rem 0 0 3rem;
 }
-
+ul {
+  list-style: circle;
+}
 .img-titles2{
   color: #333;
-  margin: 2rem 0 0 3rem;
   font-weight: 600;
+  text-align: center;
 }
 
 .text-inside-list{
@@ -328,12 +348,10 @@ section{
 
 .img-titles5{
   color: #333;
-  margin: 1em 0 0 1.5em;
+  margin: 1em 1.5em;
 }
 
 .sketch-1{
-  /*margin: 0 0 0 4.5rem;*/
-  width: 80%;
   align-self: center;
 }
 
@@ -346,20 +364,15 @@ section{
 }
 
 .usability-1{
-  width: 70%;
-  height: auto;
-  margin: 2rem 2rem .5rem 2rem;
+  margin: 0 0.5rem;
 }
 
 .images-revision{
-  width: 90%;
-  height: auto;
-  margin: 1em 0 .5em 0;
+  max-width: 100%;
 }
 
 .roadmap{
-  width: 50%;
-  height: auto;
+  max-width: 50%;
   margin: 1em 0 1em 0;
 }
 
@@ -379,18 +392,6 @@ section{
   flex-direction: column;
 }
 
-.lo-fi-container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.hi-fi-container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .circle5{
   padding: 0;
   margin: -9.5rem 8rem 0 0;
@@ -398,27 +399,13 @@ section{
 }
 
 .refined{
-  width: 90%;
-  height: auto;
-  margin: .5rem 2rem .5rem 2rem;
+  max-width: 100vw;
 }
 
 .text-inside-6{
   margin: 2rem 0 0 0;
   padding: 2rem 2rem 2rem 2rem;
   line-height: normal;
-}
-
-.lo-fi{
-  width: 80%;
-  height: auto;
-  margin-bottom: 1em;
-}
-
-.lo-fi1{
-  width: 70%;
-  height: auto;
-  margin-bottom: 1em;
 }
 
 .bike-path6{
@@ -443,21 +430,12 @@ section{
 }
 
 .hi-fi{
-  width: 38%;
-  height: auto;
-  margin-left: 1em;
+  padding:0 1em;
+  flex: 1 0 0%;
+  height: 100%;
 }
-
-.hi-fi2{
-  width: 40%;
-  height: auto;
-  margin-left: 1em;
-}
-
-.hi-fi3{
-  width: 80%;
-  height: auto;
-  margin-left: 1em;
+.hi-fi>img{
+  max-height: 100%;
 }
 
 .img-titles6{
@@ -562,31 +540,4 @@ section{
   display: flex;
   flex-direction: column;
   padding-bottom: 0;
-}
-
-
-/*MEDIA QUERYS*/
-@media (min-width:768px) {
-  .overview {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-between;
-  }
-  .section-container{
-    align-items: center;
-    max-width: 30%;
-    margin:0 1em;
-  }
-  .ovtitles{
-    margin-left: 0;
-    font-size: 1.3em;
-  }
-  .overviewSections {
-    width: 100%;
-    font-size: 0.9em;
-  }
-  .bg-primary{
-    height: 30rem;
-  }
 }

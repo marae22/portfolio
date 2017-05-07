@@ -7,6 +7,8 @@ heroImage = "/earn-images/earnTitle.png"
 screenShot = "/earn-images/screenShots.png"
 title = "EARN"
 
+listImage = "/earn-images/screenShots.png"
+
 sectionTitle = "RESEARCH & DESIGN"
 
 overview = "EARN.org is a non-profit organization that help low income families to learn how to save."
