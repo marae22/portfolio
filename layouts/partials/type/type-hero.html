@@ -1,0 +1,11 @@
+{{ "<!-- HEADER -->" | safeHTML }}
+<header class="space" style="background-image: url({{ .Params.heroImage }})">
+    <div class = "header-content">
+      <div class="header-content-inner">
+          <div class="title">
+            {{ .Params.title}}
+      </div>
+      <div class="date">
+        {{ .Params.projectdate}}
+      </div>
+</header>
