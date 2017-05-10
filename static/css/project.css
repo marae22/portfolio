@@ -23,10 +23,11 @@ section{
   padding:0;
 }
 
-/*
-#back-box{
-  background-color: grey;
+/*.bg-text{
+  background-color: #FDEBDA;
+  padding: 1em;
 }*/
+
 
 .sketch-container::-webkit-scrollbar {
  display: none;
@@ -147,6 +148,18 @@ section{
   color: #333;
   font-size: .8em;
   align-self: center;
+  margin-left: .5em;
+}
+
+.overviewSections2{
+  margin-left: .5em;
+  font-size: .8em;
+}
+
+.ovtitles2{
+  margin-left: 1em;
+  font-weight: 600;
+  align-self: flex-start;
 }
 
 .section-container{
@@ -313,6 +326,8 @@ ul {
 
 .img-titles3{
   color: #333;
+  font-weight: 600;
+  text-align: center;
 }
 
 .text-inside-3{

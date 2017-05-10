@@ -1,0 +1,251 @@
+@import url("project.responsive.css");
+/*MEDIA QUERYS*/
+/*IPHONE 6*/
+@media (min-width:370px) {
+  .overview{
+    width: 21em;
+    margin-left: 1em;
+  }
+
+  .overviewSections2{
+    margin-left: 1em;
+    font-size: .8em;
+  }
+
+  .p-android{
+    width: 12em;
+    margin: 2em 0 0 2em;
+    font-size: 18px;
+  }
+
+  .android-img{
+    width: 20%;
+    float: right;
+    margin: -4em 2em 0 0;
+  }
+
+  .frequent-apps-title{
+    font-size: 18px;
+    margin: 3em 0 1em 2em;
+    padding-right: 1em;
+  }
+
+  .freq-apps{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+    align-items: center;
+  }
+
+  .apps>div>h4{
+    align-self: flex-start;
+    margin-left: 1em;
+  }
+
+  .pie-text{
+    margin: 2em 0 1em 2em;
+  }
+
+  .platforms{
+    margin: 0 0 2rem 5rem;
+  }
+
+  .sketch-container{
+    margin-bottom: 0;
+  }
+
+  .code2{
+    margin: 2em 0 2em 0;
+  }
+
+  .text-inside{
+    margin: .5em 1em 1em 1em;
+  }
+
+  .img-titles3{
+      margin: 1rem 0 .5em .5em;
+  }
+
+  .synthesis1 {
+    margin: 0 3em 2em 0;
+  }
+
+  .synthesis2 {
+    margin: -12em 12em 0 0;
+  }
+
+  .synthesis3 {
+    margin: -8em 1.5em 0 0;
+  }
+}
+
+/*IPHONE 6 Plus*/
+@media (min-width: 410px) {
+
+    .overview{
+      width: 25em;
+      margin-left: 1em;
+    }
+
+    .research-title{
+      font-size: 4.5em;
+    }
+}
+
+/*LANDSCAPE IPHONE 5*/
+@media (min-width: 565px) {
+
+    header .header-content {
+      margin-top: 3em;
+      padding: 4em .5em 0 .5em;
+    }
+
+    .btn-new{
+      margin-top: 4.8em;
+    }
+
+    .overview {
+      width: 30em;
+      margin-left: 5em;
+    }
+
+    .overviewSections{
+      margin-left: -4em;
+    }
+
+    h4{
+      font-size: 20px;
+    }
+
+    .image-center {
+      margin-left: 5em;
+      width: 72vw;
+    }
+
+    .p-android{
+      width: 15em;
+      margin: 2em 0 0 2em;
+      font-size: 20px;
+    }
+
+    .android-img{
+      width: 15%;
+      float: right;
+      margin: -4em 5em 0 0;
+    }
+
+    .frequent-apps-title{
+      font-size: 20px;
+      margin: 3em 0 1em 2em;
+      padding-right: 1em;
+    }
+
+    .sketch-container{
+      height: 80vh;
+      margin-bottom: 0;
+    }
+
+    .sketch-container>div>img{
+      width: 58vw;
+    }
+
+    .sketch-container>div {
+    height: 100%;
+    flex: 1 0 0%;
+    min-width: 65%;
+    margin-left: 0;
+    padding-top: .5em;
+  }
+
+  .code{
+    width: 50vw;
+  }
+
+  .code2{
+    width: 65vw;
+  }
+
+  .computer{
+    width: 60vw;
+    margin-top: 2em;
+  }
+
+  .together{
+    width: 50vw;
+  }
+
+  .pie{
+    width: 40%;
+    margin: -2em 1em 1em 15em;
+  }
+
+  .pie-text{
+    font-size: 20px;
+    margin: 2em 0 1em 2em;
+  }
+
+  #final-size{
+    height: 100vh;
+    margin-bottom: 6em;
+  }
+
+  .synthesis2{
+    margin: -19em 19em 0 0;
+  }
+
+  .research-title{
+     font-size: 3.5em;
+  }
+
+  .researchDesign{
+    margin: -2em;
+  }
+
+  .section-container>p{
+     margin: 0 7.5em 0 1em;
+  }
+
+}
+
+/*LANDSCAPE IPHONE 6*/
+@media (min-width: 665px) {
+  header .header-content {
+    margin-top: 3em;
+  }
+
+  .overview>div>p{
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    /*justify-content: center;*/
+  }
+
+  .overviewSections2{
+    margin-left: 1.5em;
+  }
+
+
+
+}
+
+/*LANDSCAPE IPHONE 6 Plus*/
+@media (min-width: 735px){
+
+}
+
+/*IPAD*/
+@media (min-width:765px) {
+  .overview {
+    width: 45em;
+    margin-left: 0;
+  }
+
+  .overview>div>p{
+    width: 30vw;
+  }
+}
+
+/*LANDSCAPE IPAD && IPAD Pro small desktop*/
+@media (min-width:1020px) {
+
+}

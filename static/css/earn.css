@@ -1,3 +1,6 @@
+@import url("project.css");
+
+
 body{
   font-family: futura, cursive, sans-serif;
 }
@@ -6,7 +9,9 @@ p{
   font-size: .8em;
   padding: 0 1em 0 1.5em;
 }
-
+.section-container>p{
+  margin: 0 1.5em 0 1em;
+}
 .title{
   display: none;
 }
@@ -15,12 +20,20 @@ p{
   font-size: .8em;
 }
 
+.overview{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  padding-bottom: 0.5em;
+}
+
 .header-content{
   width: 40rem;
 }
 
 .research-title{
-  font-size: 3em;
+  font-size: 3.5em;
 }
 
 .image-center{
@@ -39,7 +52,7 @@ p{
 }
 
 .btn-new{
-  margin-top: 10rem;
+  margin-top: 4.8em;
   height: 4rem;
   width: 13rem;
   background-color: #0D5741;
@@ -70,6 +83,7 @@ p{
   height: auto;
   width: auto;
   padding-bottom: 2em;
+  margin-top: -70px;
 }
 
 .bg-secondary{
@@ -100,7 +114,8 @@ p{
 }
 
 .credit1{
-  margin: .5em 0 0 1em;
+  margin: 0 3em 0 3em;
+  text-align: center;
   font-size: .8em;
   color: #333;
   padding: 0;
@@ -123,8 +138,8 @@ p{
 }
 
 .pie-text{
-  font-size: 1em;
-  margin: 2em 0 1em .5em;
+  font-size: 18px;
+  margin: 2em 0 1em 1em;
   width: 15em;
 }
 
@@ -135,16 +150,16 @@ p{
   align-items: center;
 }
 
-.freq-apps-title{
-  font-weight: 400;
-  /*margin: 1em 0 0 0;*/
+.frequent-apps-title{
+  font-size: 18px;
+  margin: 3em 0 1em 1em;
+  padding-right: 1em;
 }
 
 .p-android{
-  /*font-family: futura, cursive, sans-serif;*/
   width: 12em;
-  margin: 2em 0 0 .5em;
-  font-size: 1em;
+  margin: 2em 0 0 1em;
+  font-size: 18px;
 }
 
 .android-img{
@@ -170,11 +185,6 @@ p{
 .apps>div>h4{
   align-self: flex-start;
 }
-.frequent-apps-title{
-  font-size: 1em;
-  margin: 3em 0 1em .5em;
-  padding-right: 1em;
-}
 
 .computer{
   margin: 1rem 2rem 1rem 0;
@@ -188,19 +198,15 @@ p{
 }
 
 .img-titles2{
-    align-self: flex-start;
     font-size: 2.6rem;
     font-weight: 600;
-    /*float: right;*/
-    margin: .5em 0 .3em .6em;
     color: #333;
-    /*width:30rem;*/
 }
 
 .text-inside-2{
   margin: 0;
-  font-size: 1em;
-  padding: 1em 2em 1em 2em ;
+  font-size: .8em;
+  padding: 1em 2em 1em 2.5em ;
 }
 
 .text-inside-list{
@@ -213,6 +219,7 @@ p{
   flex-direction: column;
   /*border: 1px solid red;*/
   align-items: center;
+  justify-content: center;
 }
 
 .gathered-container>* {
@@ -222,14 +229,14 @@ p{
     font-size: 2.6rem;
     font-weight: 600;
     float: right;
-    margin: 2rem 0 1rem 2rem;
+    margin: 1rem 0 1em .5em;
     color: #333;
-    align-self: flex-start;
+
 }
 
 .text-inside{
-  padding:1rem 2rem 1rem 2rem;
-  margin: 0 1em 1em 1em;
+  padding: 0 1em 1em 1em;
+  text-align: justify;
 }
 
 .zendesk-img{
@@ -240,8 +247,6 @@ p{
 .zendesk{
   width: auto;
   font-size: 12px;
-  margin: 1rem 0 3rem 3rem;
-  /*float: right;*/
 }
 
 .platforms{
@@ -319,6 +324,7 @@ p{
   flex: 1 0 0%;
   min-width: 90%;
   margin-left: .5em;
+  padding-top: .5em;
 }
 
 .sketch-container>div>img{
@@ -372,14 +378,13 @@ p{
 }
 
 .num-users{
-  align-self: flex-start;
-  margin: 0 0 0 4rem;
+  align-self: center;
 
 }
 
 .text-inside-center{
-  padding: 1rem 0 1rem 0;
   margin: 0 0 0 -1em;
+  padding-left: 5px;
 
 }
 
@@ -473,4 +478,5 @@ p{
   color: #333;
   margin: .5rem 0 1rem 2rem;
   font-weight: 600;
+  padding: 1em 0 0 0;
 }
