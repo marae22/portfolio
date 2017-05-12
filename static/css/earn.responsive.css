@@ -145,6 +145,10 @@
 /*LANDSCAPE IPHONE 5*/
 @media (min-width: 565px) {
 
+  #size{
+    width: 35em;
+  }
+
     .credit1{
       text-align: center;
     }
@@ -303,8 +307,13 @@
 /*LANDSCAPE IPHONE 6*/
 @media (min-width: 665px) {
 
+  .screenshot{
+    margin-left: auto;
+    width: 70vw;
+    /*margin-right: auto;*/
+  }
+
   .researchDesign>p{
-    border: 1px solid red;
     margin-left: auto;
     margin-right: auto;
   }
@@ -386,6 +395,19 @@
   .pie{
     width: 45%;
   }
+
+  .p-android{
+    width: 100vw;
+  }
+
+  .android-img{
+    width: 12%;
+  }
+
+  .apps{
+    margin: 2em 3em 3em 3em;
+  }
+
 }
 
 /*LANDSCAPE IPHONE 6 Plus*/
@@ -410,6 +432,12 @@
 
 /*IPAD*/
 @media (min-width:765px) {
+
+  .btn-new{
+    margin-top: 32em;
+    margin-bottom: 2em;
+  }
+
   .overview {
     width: 45em;
     margin-left: 1em;

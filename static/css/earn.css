@@ -76,6 +76,7 @@ p{
 
 .screenshot{
   box-shadow: 2px 3px 5px darkgrey;
+  
 }
 
 .bg-overview{
@@ -129,7 +130,7 @@ p{
 }
 
 #size{
-  width: 25em;
+  width: 23em;
 }
 
 #size2{
@@ -231,14 +232,10 @@ p{
 .gathered-container{
   display: flex;
   flex-direction: column;
-  /*border: 1px solid red;*/
   align-items: center;
   justify-content: center;
 }
 
-.gathered-container>* {
-  /*border: 1px solid blue;*/
-}
 .img-titles3{
     font-size: 2.6rem;
     font-weight: 600;

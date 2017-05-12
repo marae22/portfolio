@@ -10,6 +10,8 @@ screenshot = "/images/screenShots.png"
 sectionTitle = "RESEARCH & DESIGN"
 css = ['/css/project.css', '/css/project.responsive.css']
 
+listImage = "/images/sfbcTitle.png"
+
 overview = "The SFBC is a non-profit organization that is committed to making the city of San Francisco safer for all cyclists."
 
 problem = "As a concept project SFBC needed a strategy and design for digital tools that would engage their members more frequently and give members a sense of active contribution to the SFBC’s larger goals."

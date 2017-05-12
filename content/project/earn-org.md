@@ -9,7 +9,7 @@ title = "EARN"
 
 css = ['/css/earn.css', '/css/earn.responsive.css']
 
-listImage = "/earn-images/screenShots.png"
+listImage = "/images/earnTitle1.png"
 
 sectionTitle = "RESEARCH & DESIGN"
 

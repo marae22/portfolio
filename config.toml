@@ -57,7 +57,7 @@ googleAnalytics = ""
 		buttonT = "TEST"
 
 
-	# Service section
+	# #Service section
 	# [params.services]
 	# 	headline = "Programs I Use"
   #       [[params.services.list]]
@@ -80,10 +80,15 @@ googleAnalytics = ""
   #           title = "CSS"
   #           description = "I use CSS to bring my designs to life."
 
+	#Portfolio
+[ params.portfolio]
+
+
+
 
     # Portfolio modals
 	[params.portfolio.modal]
-        client = "Client"
+        client = "tset"
         date = "Date"
         category = "Category"
         buttonText = "Close"

@@ -1,5 +1,13 @@
+section {
+    padding: 50px 0;
+}
+
 body{
-  font-family: futura, cursive, sans-serif; 
+  font-family: futura, cursive, sans-serif;
+}
+
+.titles{
+  width: 50%;
 }
 
 .logo{
