@@ -5,13 +5,16 @@ body{
   font-family: futura, cursive, sans-serif;
 }
 
+
 p{
   font-size: .8em;
   padding: 0 1em 0 1.5em;
 }
-.section-container>p{
+
+/*.section-container>p{
   margin: 0 1.5em 0 1em;
-}
+}*/
+
 .title{
   display: none;
 }
@@ -30,6 +33,10 @@ p{
 
 .header-content{
   width: 40rem;
+}
+
+.researchDesign{
+  align-self: auto;
 }
 
 .research-title{
@@ -52,7 +59,7 @@ p{
 }
 
 .btn-new{
-  margin-top: 4.8em;
+  margin-top: 5em;
   height: 4rem;
   width: 13rem;
   background-color: #0D5741;
@@ -121,6 +128,14 @@ p{
   padding: 0;
 }
 
+#size{
+  width: 25em;
+}
+
+#size2{
+  width: 20em;
+}
+
 .graph1{
   padding: 0;
   margin: 0;
@@ -133,7 +148,7 @@ p{
 
 .pie{
   width: 60%;
-  margin: -1rem 1rem 1rem 6rem;
+  margin: -1rem 1rem 1rem 9rem;
   float: left;
 }
 
@@ -143,12 +158,11 @@ p{
   width: 15em;
 }
 
-.freq-apps{
+/*.freq-apps{
   display: flex;
   flex-direction: row;
-  border: 1px solid red;
   align-items: center;
-}
+}*/
 
 .frequent-apps-title{
   font-size: 18px;
@@ -372,7 +386,7 @@ p{
 
 .code2{
   width: 90%;
-  margin: 2rem 0 0 0;
+  margin: 0 0 1em 0;
   align-self: center;
   box-shadow: .6rem .2rem .5rem darkgrey;
 }
@@ -392,7 +406,7 @@ p{
   border: 5px solid #fff;
   width: 50%;
   float: right;
-  margin: 3rem 2rem 0 0;
+  margin: 0 2rem 0 0;
 }
 
 .synthesis2{
@@ -406,7 +420,7 @@ p{
   border: 1px solid #fff;
   width: 60%;
   float: right;
-  margin: -13rem 2rem 0 0;
+  margin: -10rem 1rem 0 0;
 }
 
 .synthesis4{

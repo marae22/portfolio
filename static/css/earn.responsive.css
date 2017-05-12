@@ -2,6 +2,20 @@
 /*MEDIA QUERYS*/
 /*IPHONE 6*/
 @media (min-width:370px) {
+
+  .researchDesign>p{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .credit1{
+    text-align: center;
+  }
+
+  .btn-new{
+    margin-top: 11em;
+  }
+
   .overview{
     width: 21em;
     margin-left: 1em;
@@ -42,6 +56,11 @@
     margin-left: 1em;
   }
 
+  .pie{
+      width: 60%;
+      margin: -1rem 1rem 1rem 12rem;
+    }
+
   .pie-text{
     margin: 2em 0 1em 2em;
   }
@@ -60,6 +79,10 @@
 
   .text-inside{
     margin: .5em 1em 1em 1em;
+  }
+
+  .text-inside-2{
+    font-size: 15px;
   }
 
   .img-titles3{
@@ -82,26 +105,76 @@
 /*IPHONE 6 Plus*/
 @media (min-width: 410px) {
 
+  .credit1{
+    text-align: center;
+  }
+
     .overview{
-      width: 25em;
+      width: 24em;
       margin-left: 1em;
     }
 
     .research-title{
       font-size: 4.5em;
     }
+
+    .pie{
+      float: left;
+      margin-right: auto;
+      margin-left: 6em;
+    }
+
+    .synthesis2{
+      float:left;
+      margin: -20rem 0 0 3rem;
+    }
+
+    .synthesis3{
+      margin: -13rem 3rem 0 0;
+    }
+
+    .p-android{
+      width: 70vw;
+    }
+
+    .android-img{
+      margin: -4.5em 2em 0 0;
+    }
 }
 
 /*LANDSCAPE IPHONE 5*/
 @media (min-width: 565px) {
 
-    header .header-content {
-      margin-top: 3em;
-      padding: 4em .5em 0 .5em;
+    .credit1{
+      text-align: center;
+    }
+
+    section{
+      padding: 0;
+    }
+
+    p{
+      font-size:     1.5rem;
+    }
+
+    .text-inside-2{
+      font-size: 1.5rem;
+    }
+
+    header     .header-content {
+      height: 71vh;
+    }
+
+    .num-users{
+      margin: 1em 0 1em 0;
+    }
+
+    .researchDesign {
+    margin: 0;
     }
 
     .btn-new{
-      margin-top: 4.8em;
+      margin-top: 9.5em;
     }
 
     .overview {
@@ -124,8 +197,9 @@
 
     .p-android{
       width: 15em;
-      margin: 2em 0 0 2em;
+      margin: 2em 0 0 3em;
       font-size: 20px;
+      font-weight: 400;
     }
 
     .android-img{
@@ -136,8 +210,12 @@
 
     .frequent-apps-title{
       font-size: 20px;
-      margin: 3em 0 1em 2em;
+      margin: 3em 0 1em 3em;
       padding-right: 1em;
+    }
+
+    .apps{
+      margin: 3em;
     }
 
     .sketch-container{
@@ -150,70 +228,106 @@
     }
 
     .sketch-container>div {
-    height: 100%;
-    flex: 1 0 0%;
-    min-width: 65%;
-    margin-left: 0;
-    padding-top: .5em;
-  }
+      height: 100%;
+      flex: 1 0 0%;
+      min-width: 65%;
+      margin-left: 0;
+      padding-top: .5em;
+    }
 
-  .code{
-    width: 50vw;
-  }
+    .code{
+      width: 50vw;
+    }
 
-  .code2{
-    width: 65vw;
-  }
+    .code2{
+      width: 65vw;
+      margin: 1em 0 2em 0;
+    }
 
-  .computer{
-    width: 60vw;
-    margin-top: 2em;
-  }
+    .computer{
+      width: 60vw;
+      margin-top: 2em;
+    }
 
-  .together{
-    width: 50vw;
-  }
+    .together{
+      width: 50vw;
+    }
 
-  .pie{
-    width: 40%;
-    margin: -2em 1em 1em 15em;
-  }
+    .pie{
+      width: 40%;
+      margin: -2em 1em 1em 15em;
+    }
 
-  .pie-text{
-    font-size: 20px;
-    margin: 2em 0 1em 2em;
-  }
+    .pie-text{
+      font-size: 20px;
+      margin: 2em 0 1em 3em;
+    }
 
-  #final-size{
-    height: 100vh;
-    margin-bottom: 6em;
-  }
+    #final-size{
+      height: 100vh;
+      margin-bottom: 6em;
+    }
 
-  .synthesis2{
-    margin: -19em 19em 0 0;
-  }
+    .synthesis1{
+      margin: 0 5rem 0 0;
+    }
 
-  .research-title{
-     font-size: 3.5em;
-  }
+    .synthesis2{
+      float: left;
+      margin: -19em 0 0 2em;
+    }
 
-  .researchDesign{
-    margin: -2em;
-  }
+    .synthesis3{
+      margin: -10rem 3rem 0 0;
+    }
 
-  .section-container>p{
-     margin: 0 7.5em 0 1em;
-  }
+    .research-title{
+       font-size:   3.5em;
+       margin: auto;
+    }
+
+    .section-container>p{
+       margin: 0 7.5em 0 1em;
+    }
+
+    .frequent-apps-title{
+      font-weight: 400;
+    }
+
+    .apps>div>h4{
+      font-weight: 400;
+    }
 
 }
 
 /*LANDSCAPE IPHONE 6*/
 @media (min-width: 665px) {
+
+  .researchDesign>p{
+    border: 1px solid red;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #size{
+    width: 35em;
+  }
+
+  section{
+    padding: 0;
+  }
+
   header .header-content {
-    margin-top: 3em;
+    /*margin-top: 5em;*/
+    height: 70vh;
+  }
+
+  .btn-new{
+    margin-top: 12em;
   }
 
   .overview>div>p{
+    font-size: 1em;
     width: 80vw;
     margin-left: auto;
     margin-right: auto;
@@ -221,27 +335,122 @@
   }
 
   .overviewSections2{
-    margin-left: 1.5em;
+    margin-left: .5em;
   }
 
+  .overviewSections2>li{
+    font-size: 1.2em;
+  }
 
+  .text-inside-list>li{
+    font-size: 1em;
+  }
 
+  p{
+    font-size: 1em;
+  }
+
+  .text-inside-center{
+    text-align: center;
+  }
+
+  .text-inside-2{
+    font-size: 1em;
+  }
+
+  .research-title{
+    margin: auto;
+  }
+
+  .zendesk-img{
+    margin-left: 3em;
+  }
+
+  .synthesis1 {
+    margin: 0 3em 2em 0;
+  }
+
+  .synthesis2 {
+    float: left;
+    margin: -25em 0 0 2em;
+  }
+
+  .synthesis3 {
+    margin: -14em 1.5em 1em 0;
+  }
+
+  .pie-text{
+    font-weight: 400;
+  }
+
+  .pie{
+    width: 45%;
+  }
 }
 
 /*LANDSCAPE IPHONE 6 Plus*/
 @media (min-width: 735px){
+  section{
+    padding: 0;
+  }
 
+  header .header-content {
+    /*margin-top: 5em;*/
+    height: 70vh;
+  }
+
+  .btn-new{
+    margin-top: 14em;
+  }
+
+    .research-title{
+      margin: auto;
+    }
 }
 
 /*IPAD*/
 @media (min-width:765px) {
   .overview {
     width: 45em;
-    margin-left: 0;
+    margin-left: 1em;
   }
 
   .overview>div>p{
     width: 30vw;
+  }
+
+  .overviewSections2{
+    margin-left: 0;
+  }
+
+  .research-title{
+    font-size: 4em;
+    margin: auto;
+  }
+
+  .screenshot{
+    width: 80vw;
+    margin: auto;
+  }
+
+  .image-center {
+     margin-left: 0;
+     width: 100vw;
+  }
+
+  .sketch-container {
+    height: 37vh;
+    margin-bottom: 0;
+  }
+
+  #final-size {
+    height: 46vh;
+    margin-bottom: 6em;
+  }
+
+  .sketch-container {
+    height: 34vh;
+    margin-bottom: 0;
   }
 }
 
