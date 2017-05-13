@@ -41,8 +41,8 @@ googleAnalytics = ""
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "Uxj"
-		subtitle   = "I have known my whole life that I can draw a picture and balance a check book but I didn’t know that it would lead me to where I am today..."
+		slogan     = "HELLO"
+		subtitle   = "I am a designer. I am a creative. I am "
 		buttonText = "View my projects"
 		buttonT = "Click for more"
 
@@ -79,12 +79,6 @@ googleAnalytics = ""
   #           icon = "fa-css3"
   #           title = "CSS"
   #           description = "I use CSS to bring my designs to life."
-
-	#Portfolio
-[ params.portfolio]
-
-
-
 
     # Portfolio modals
 	[params.portfolio.modal]

@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
-<link rel="stylesheet" href="{{ "css/about.css" | absURL }}" type="text/css">
-    <head>
-        {{ partial "head.html" . }}
-    </head>
-        {{ partial "nav.html" .}}
-    <body id="page-top">
-      <div class="description-container">
-        <img class="portrait" src="../images/ME.png" />
-      <div class="description">
-          I have known my whole life that I can draw a picture and balance a check book but I didn’t know that it would lead me to where I am today. I am a fun, energetic, problem-solving user experience designer with a background in finance and illustration.
-I use ethnography to understand people and how they interact with the digital world, I sketch to generate and communicate ideas that offer different ways to relieve stress for users, and I can build wireframes to create a structure of stability and understanding, translating ideas into solutions.
-      </div>
-</div>
-    </body>
+<head>
+  <link rel="stylesheet" href="{{ " css/about.css " | absURL }}" type="text/css">
+  {{ partial "head.html" . }}
+</head>
+{{ partial "nav.html" .}}
+
+<body id="page-top">
+  <div class="description-container">
+    <img class="portrait" src="../images/ME.png" />
+    <div class="description">
+      I have known my whole life that I can draw a picture and balance a check book but I didn’t know that it would lead me to where I am today. I am a fun, energetic, problem-solving user experience designer with a background in finance and illustration. I
+      use ethnography to understand people and how they interact with the digital world, I sketch to generate and communicate ideas that offer different ways to relieve stress for users, and I can build wireframes to create a structure of stability and
+      understanding, translating ideas into solutions.
+    </div>
+  </div>
+</body>
+
 </html>

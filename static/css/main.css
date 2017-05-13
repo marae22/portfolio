@@ -1,5 +1,5 @@
 section {
-    padding: 10px 0;
+    padding: 10px 10px;
 }
 body{
   font-family: futura, cursive, sans-serif;
@@ -20,6 +20,7 @@ body{
 
 .titles{
   width: 100%;
+  border-radius: 3px;
 }
 
 .logo{
@@ -35,13 +36,17 @@ body{
 }
 
 header{
-  background-image: url("../images/computer.png");
+  background-image: url("../images/flowerTitle.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 
 h1{
   font-family: 'Rock Salt', cursive;
   letter-spacing: 7px;
   line-height: 1.75;
+  color: #fff;
 }
 
 header .header-content .header-content-inner p{
@@ -65,9 +70,6 @@ header .header-content .header-content-inner p{
 .navbar-default .nav > li>a, .navbar-default .nav>li>a:focus{
   font-size: 1rem;
   letter-spacing: 3px;
-}
-.fa{
-  color: #FF6F59;
 }
 
 hr{
@@ -109,7 +111,7 @@ a:hover{
 }
 
 .navbar-default .nav > li.active {
-  background-co\lor: #75DDDD !important;
+  background-color: #75DDDD !important;
 }
 
 @media (min-width: 768px)  {
@@ -131,4 +133,8 @@ a:hover{
     display: flex;
     flex-direction: row;
   }
+
+  header {
+    min-height: 95%;
+}
 }

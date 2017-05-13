@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
-    <head>
-        {{ partial "head.html" . }}
-        <link rel="stylesheet" href="/css/list.css">
-    </head>
-    <body id="page-top">
-      list hello world
-      {{ range .Pages }}
-      {{ .Render "li"}}
-      {{end}}
-    </body>
+
+<head>
+  {{ partial "head.html" . }}
+  <link rel="stylesheet" href="/css/list.css">
+</head>
+
+<body id="page-top">
+  {{ partial "list-hero.html" . }}
+  {{ range .Pages }}
+    {{ .Render "summary"}}
+  {{end}}
+</body>
+
 </html>
