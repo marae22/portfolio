@@ -12,9 +12,10 @@
                 {{ with .Site.Params.about.description }}
                     <p class="text-faded">{{ . | markdownify }}</p>
                 {{ end }}
-                {{ range first 3 (where .Data.Pages "Type" "project") }}
+                <div class="titles-container">
+                  {{ range first 3 (where .Data.Pages "Type" "project") }}
                     {{ .Render "li" }}
-                {{end}}
+                {{end}}</div>
 
                 {{ with .Site.Params.about.buttonText }}
                     <a href="#" class="btn btn-default btn-xl">{{ . }}</a>
