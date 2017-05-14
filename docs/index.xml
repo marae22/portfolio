@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo Creative Theme</title>
+    <link>https://example.org/</link>
+    <description>Recent content on Hugo Creative Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Apr 2017 19:39:51 -0700</lastBuildDate>
+    
+	<atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Typography</title>
+      <link>https://example.org/typography/valley/</link>
+      <pubDate>Sun, 30 Apr 2017 19:39:51 -0700</pubDate>
+      
+      <guid>https://example.org/typography/valley/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Typography</title>
+      <link>https://example.org/typography/angel/</link>
+      <pubDate>Sun, 30 Apr 2017 19:36:42 -0700</pubDate>
+      
+      <guid>https://example.org/typography/angel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EARN</title>
+      <link>https://example.org/project/earn-org/</link>
+      <pubDate>Sat, 22 Apr 2017 11:46:43 -0700</pubDate>
+      
+      <guid>https://example.org/project/earn-org/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>San Francisco Bicycle Coalition</title>
+      <link>https://example.org/project/sfbc/</link>
+      <pubDate>Sat, 22 Apr 2017 11:31:29 -0700</pubDate>
+      
+      <guid>https://example.org/project/sfbc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.org/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/about/</guid>
+      <description>{{ partial &#34;head.html&#34; . }}  {{ partial &#34;nav.html&#34; .}} I have known my whole life that I can draw a picture and balance a check book but I didn’t know that it would lead me to where I am today. I am a fun, energetic, problem-solving user experience designer with a background in finance and illustration. I use ethnography to understand people and how they interact with the digital world, I sketch to generate and communicate ideas that offer different ways to relieve stress for users, and I can build wireframes to create a structure of stability and understanding, translating ideas into solutions.</description>
+    </item>
+    
+  </channel>
+</rss>

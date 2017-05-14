@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Hugo Creative Theme"
 theme = "hugo-creative-theme"
 googleAnalytics = ""
-
+publishDir = "docs"
 [params]
 
 	# You can use Markdown syntax for urls [text](//url.to/source) for
@@ -34,26 +34,24 @@ googleAnalytics = ""
 		[params.navigation.links]
 			about     = "About"
 			services  = "Services"
-			portfolio = "Portfolio"
+			portfolio = "My Projects"
 			contact   = "Contact"
 
 
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "HELLO"
-		subtitle   = "I am a designer. I am a creative. I am "
+		slogan     = "UX JESSICA"
+		subtitle   = "DESIGNER // ARTIST // CODER"
 		buttonText = "View my projects"
 		buttonT = "Click for more"
 
 
 	# About section
 	[params.about]
-		headline    = "My Projects"
-		description = "Here are my recent projects"
-		links = "http://localhost:1313/project/sfbc/"
-		link2 = "http://localhost:1313/project/earn-org/"
-		buttonText  = "MORE!"
+		headline    = "MY PROJECTS"
+		description = "Here are my recent projects."
+		buttonText  = "View all projects"
 		buttonT = "TEST"
 
 
@@ -89,11 +87,11 @@ googleAnalytics = ""
 
     # Aside section
 	[params.aside]
-		headline = "Want to view my resume?"
+		headline = "Want to know more about my background?"
 
 		[params.aside.button]
-			text = "View now"
-			link = "http://uxjessica.me/resume/"
+			text = "View Resume"
+			link = "/pdf/jessicamcculloughresume.pdf"
 
 	# Contact section
 	[params.contact]

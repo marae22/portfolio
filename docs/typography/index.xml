@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Typographies on Hugo Creative Theme</title>
+    <link>https://example.org/typography/</link>
+    <description>Recent content in Typographies on Hugo Creative Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Apr 2017 19:39:51 -0700</lastBuildDate>
+    
+	<atom:link href="https://example.org/typography/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Typography</title>
+      <link>https://example.org/typography/valley/</link>
+      <pubDate>Sun, 30 Apr 2017 19:39:51 -0700</pubDate>
+      
+      <guid>https://example.org/typography/valley/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Typography</title>
+      <link>https://example.org/typography/angel/</link>
+      <pubDate>Sun, 30 Apr 2017 19:36:42 -0700</pubDate>
+      
+      <guid>https://example.org/typography/angel/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
