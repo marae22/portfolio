@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://marae22.github.io/portfolio/typography/valley/</loc>
+    <lastmod>2017-04-30T19:39:51-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://marae22.github.io/portfolio/typography/angel/</loc>
+    <lastmod>2017-04-30T19:36:42-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://marae22.github.io/portfolio/project/earn-org/</loc>
+    <lastmod>2017-04-22T11:46:43-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://marae22.github.io/portfolio/project/sfbc/</loc>
+    <lastmod>2017-04-22T11:31:29-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://marae22.github.io/portfolio/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://marae22.github.io/portfolio/project/</loc>
+    <lastmod>2017-04-22T11:46:43-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://marae22.github.io/portfolio/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://marae22.github.io/portfolio/</loc>
+    <lastmod>2017-04-30T19:39:51-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://marae22.github.io/portfolio/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://marae22.github.io/portfolio/typography/</loc>
+    <lastmod>2017-04-30T19:39:51-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
