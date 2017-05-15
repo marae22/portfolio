@@ -1,9 +1,9 @@
-baseurl = "https://marae22.github.io/portfolio/"
+baseurl = "https://marae22.github.io"
 languageCode = "en-us"
 title = "Jessica Mccullough"
 theme = "jessica-theme"
 googleAnalytics = ""
-publishDir = "docs"
+publishDir = "../website"
 [params]
 
 	# You can use Markdown syntax for urls [text](//url.to/source) for
@@ -90,7 +90,7 @@ publishDir = "docs"
 		headline = "Want to know more about my background?"
 
 		[params.aside.button]
-			text = "View Resume"
+			text = "Download  Resume"
 			link = "/pdf/jessicamcculloughresume.pdf"
 
 	# Contact section
