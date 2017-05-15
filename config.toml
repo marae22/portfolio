@@ -24,12 +24,12 @@ publishDir = "../website"
 	description = "Best Designer Ever"
 
 	# The path must be relative to the static folder
-	favicon = "favicon.ico"
+	favicon = "logo.png"
 
 
 	# Navigation
 	[params.navigation]
-		brand = "Uxj"
+		brand = "logo.png"
 
 		[params.navigation.links]
 			about     = "About"
