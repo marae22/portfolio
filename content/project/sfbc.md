@@ -10,7 +10,7 @@ screenshot = "/images/screenShots.png"
 sectionTitle = "RESEARCH & DESIGN"
 css = ['/css/project.css', '/css/project.responsive.css']
 
-listImage = "/images/sfbcTitle2.png"
+listImage = "/images/sfbcTitle.png"
 
 overview = "The SFBC is a non-profit organization that is committed to making the city of San Francisco safer for all cyclists."
 
