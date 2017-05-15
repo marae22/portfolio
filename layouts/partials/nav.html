@@ -25,11 +25,11 @@
                       <a class="page-scroll" href="#about">{{ .Site.Params.navigation.links.portfolio }}</a>
                   </li>
                 {{ end }}
-                {{ if .Site.Params.navigation.links.portfolio }}
+                <!-- {{ if .Site.Params.navigation.links.portfolio }}
                   <li>
                     <a class="page-scroll" href="{{ "/about" | absURL }}"> {{ .Site.Params.navigation.links.about }} </a>
                   </li>
-                {{ end }}
+                {{ end }} -->
                 {{ if and .Site.Params.services.list .Site.Params.navigation.links.services }}
                   <li>
                       <a class="page-scroll" href="#services">{{ .Site.Params.navigation.links.services }}</a>

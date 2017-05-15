@@ -5,6 +5,10 @@
     height: 78vh;
   }
 
+  h1{
+    font-size: 4em;
+  }
+
   .header-content-inner{
     margin-top: 0;
   }
@@ -31,12 +35,16 @@
 /*IPHONE 6*/
 @media(min-width:365px){
   h1{
-    font-size: 2.9em;
-    padding: 1em 1em 0 1em;
+    font-size: 5.5em;
+    /*padding: 1em 1em 0 1em;*/
   }
 
-  header .header-content{
+  header{
     height: 80vh;
+  }
+
+  .header-content-inner{
+    margin-top: 2em;
   }
 
   .no-padding{
@@ -55,13 +63,11 @@
 /*IPHONE 6 PLUS*/
 @media(min-width:400px){
 
-
   h1{
-    font-size: 3.5em;
-    padding: 1em 1em 0 1em;
+    font-size: 6em;
   }
 
-  header .header-content{
+  header{
     height: 82vh;
   }
 
@@ -70,8 +76,8 @@
   }
 
   h2{
-    font-size: 2em;
-    padding: 0 .5em;
+    font-size: 1.8em;
+    padding: 0 1em;
   }
 
 }
@@ -89,7 +95,7 @@
   }
 
   h1{
-    font-size: 3em;
+    font-size: 5em;
   }
 
   header .header-content{
@@ -97,12 +103,11 @@
   }
 
   .header-content-inner{
-    margin-top: -3.5em;
+    margin-top: -5em;
   }
 
   h2{
-    font-size: 2.5em;
-    padding: 0 1.5em;
+    font-size: 1.8em;
   }
 
   .contact-container{
@@ -112,30 +117,47 @@
 /*IPHONE 6 LANDSCAPE*/
 @media(min-width:655px){
   h1{
-    font-size: 4em;
+    font-size: 6em;
   }
 
   h2{
-    font-size: 2.5em;
-    padding: 0 3em;
+    font-size: 1.8em;
+    /*padding: 0 3em;*/
   }
 
   .contact-container{
     flex-direction: row;
     justify-content: space-around;
   }
+  header{
+    height: 100vh;
+  }
 }
 /*IPHONE 6 PLUS LANDSCAPE*/
 @media(min-width:730px){
+
+  h1{
+    font-size: 7em;
+  }
+
   h2{
-    font-size: 2.5em;
+    font-size: 2.2em;
     padding: 0;
   }
+
+  .header-content-inner{
+    margin-top: 3.5em;
+  }
+
 }
 /*IPAD*/
 @media(min-width:760px) {
   header{
-    height:80%;
+    height:86%;
+  }
+
+  h1{
+    font-size: 9em;
   }
 
   .no-padding{
@@ -147,7 +169,11 @@
   }
 
   .header-content-inner{
-    margin-top: 15em;
+    margin-top: 23em;
+  }
+
+  header .header-content .header-content-inner p {
+    font-size: 1.4em;
   }
 
   .nav::before {
@@ -166,7 +192,6 @@
   h2{
     font-size: 2em;
     padding: 0;
-    font-weight: 100;
   }
 
   .section-heading{
@@ -206,31 +231,27 @@
 
 /*IPAD PRO*/
 @media(min-width:1023px){
-  header .header-content{
-    height: auto;
-  }
+
   header .header-content .header-content-inner {
     max-width: 75vw;
-    margin-top: 4em;
+    margin-top: 20em;
   }
 
   h1{
     font-size: 8em;
-    letter-spacing: 3px;
-    padding: 0;
   }
 
   h2{
-    font-size: 2.5em;
+    font-size: 2.3em;
   }
 
 
   header{
-    height: 80%;
+    height: 80vh;
   }
 
   .section-heading{
-    font-size: 2.5em;
+    font-size: 3em;
   }
 
   hr{
@@ -238,15 +259,15 @@
   }
 
   p{
-    font-size: 1.5em;
+    font-size: 1.6em;
   }
 
   .btn{
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .btn-xl{
-    padding: 20px 45px;
+    padding: 18px 30px;
   }
 
   .fa-3x{
@@ -271,7 +292,7 @@
 /*LAPTOP 1440*/
 @media(min-width:1430px){
   h1{
-    font-size: 7em;
+    font-size: 8em;
   }
 
   header{
