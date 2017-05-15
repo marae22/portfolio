@@ -69,20 +69,21 @@ body{
 }
 
 .nav{
-  font-family: 'Rock Salt', cursive;
+  /*font-family: 'Rock Salt', cursive;*/
 }
 
 header{
-  background-image: url("../images/flowerTitle.png");
+  background-image: url("../images/ocean.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
 }
 
 h1{
-  font-family: 'Rock Salt', cursive, sans-serif;
-  letter-spacing: 7px;
-  line-height: 1.75;
+  font-family: 'Chonburi', cursive;
+  /*font-family: 'Cinzel', serif;*/
+  /*font-famsily: 'Candal', sans-serif;*/
+
   color: #fff;
 }
 
@@ -120,7 +121,7 @@ hr{
   font-size: 4rem;
   margin-top: 1.5em;
   margin-bottom: auto;
-  font-family: 'Rock Salt', cursive, sans-serif;
+  /*font-family: 'Rock Salt', cursive, sans-serif;*/
 }
 
 .text-faded{
