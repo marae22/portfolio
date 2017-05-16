@@ -85,25 +85,26 @@
 @media(min-width:550px){
   .portfolio__outer-container{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    /*flex-wrap: wrap;*/
+    /*justify-content: space-between;*/
     align-items: center;
   }
 
   .portfolio__container {
     max-width: 45%;
+    /*margin: 0;*/
   }
 
   h1{
     font-size: 5em;
   }
 
-  header .header-content{
+  header{
     height: 100vh;
   }
 
   .header-content-inner{
-    margin-top: -5em;
+    margin-top: -1em;
   }
 
   h2{
