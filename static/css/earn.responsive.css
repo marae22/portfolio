@@ -145,9 +145,18 @@
 /*LANDSCAPE IPHONE 5*/
 @media (min-width: 565px) {
 
-  #size{
-    width: 35em;
-  }
+    .text-inside-center{
+      margin-bottom: 0;
+    }
+
+    #size3{
+      width: 23em;
+    }
+
+    #size{
+      width: 30em;
+      text-align: justify;
+    }
 
     .credit1{
       text-align: center;
@@ -165,13 +174,10 @@
       font-size: 1.5rem;
     }
 
-    header     .header-content {
-      height: 71vh;
+    header{
+      height: 90vh;
     }
 
-    .num-users{
-      margin: 1em 0 1em 0;
-    }
 
     .researchDesign {
     margin: 0;
@@ -228,7 +234,7 @@
     }
 
     .sketch-container>div>img{
-      width: 58vw;
+      width: 56vw;
     }
 
     .sketch-container>div {
@@ -268,7 +274,7 @@
     }
 
     #final-size{
-      height: 100vh;
+      height: 114vh;
       margin-bottom: 6em;
     }
 
@@ -301,6 +307,7 @@
     .apps>div>h4{
       font-weight: 400;
     }
+
 
 }
 

@@ -324,7 +324,7 @@ p{
 .sketch-container{
   width: 100%;
   overflow: auto;
-  height: 44vh;
+  height: 100%;
   margin-bottom: .5em;
   display: flex;
 }
@@ -339,6 +339,22 @@ p{
 
 .sketch-container>div>img{
   width: 95vw;
+}
+
+.sketch-container2{
+  width: 100%;
+  overflow: auto;
+  height: 100%;
+  /*margin-bottom: .5em;*/
+  display: flex;
+}
+
+.sketch-container2::-webkit-scrollbar {
+ display: none;
+}
+
+.sketch-container2>div>img{
+  width: 70vw;
 }
 
 .sketch1{
@@ -388,13 +404,14 @@ p{
 }
 
 .num-users{
-  align-self: center;
+  display: flex;
 
 }
 
 .text-inside-center{
   /*margin: 0 0 0 -1em;*/
-  padding-left: 5px;
+  /*padding-left: 5px;*/
+  text-align: center;
 
 }
 
@@ -495,10 +512,10 @@ p{
   background-color: #0D5741;
   border-radius: 5em;
   margin-bottom: .5em;
-  padding: 5px 15px 5px 15px;
+  padding: 10px 20px 10px 20px;
   border: none;
   color: #fff;
-  font-size: .5em;
+  font-size: .8em;
 }
 
 .site-button:hover{
