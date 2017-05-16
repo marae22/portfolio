@@ -90,7 +90,7 @@ publishDir = "../website"
 		headline = "Want to know more about my background?"
 
 		[params.aside.button]
-			text = "Download  Resume"
+			text = "Download Resume"
 			link = "/pdf/jessicamcculloughresume.pdf"
 
 	# Contact section

@@ -1,19 +1,17 @@
 @import url("project.css");
 
+header{
+  height: 45%;
+}
 
 body{
   font-family: futura, cursive, sans-serif;
 }
 
-
 p{
   font-size: .8em;
   padding: 0 1em 0 1.5em;
 }
-
-/*.section-container>p{
-  margin: 0 1.5em 0 1em;
-}*/
 
 .title{
   display: none;
@@ -56,9 +54,10 @@ p{
 
 .date{
   color: #333;
+  margin-top: 10em;
 }
 
-.btn-new{
+/*.btn-new{
   margin-top: 5em;
   height: 4rem;
   width: 13rem;
@@ -72,11 +71,11 @@ p{
 
 .btn-new:hover{
   background-color: red;
-}
+}*/
 
 .screenshot{
   box-shadow: 2px 3px 5px darkgrey;
-  
+
 }
 
 .bg-overview{
@@ -129,9 +128,9 @@ p{
   padding: 0;
 }
 
-#size{
+/*#size{
   width: 23em;
-}
+}*/
 
 #size2{
   width: 20em;
@@ -325,21 +324,21 @@ p{
 .sketch-container{
   width: 100%;
   overflow: auto;
-  height: 40vh;
-
+  height: 44vh;
+  margin-bottom: .5em;
   display: flex;
 }
 
 .sketch-container>div{
   height: 100%;
   flex: 1 0 0%;
-  min-width: 90%;
+  /*min-width: 90%;*/
   margin-left: .5em;
   padding-top: .5em;
 }
 
 .sketch-container>div>img{
-  width: 90vw;
+  width: 95vw;
 }
 
 .sketch1{
@@ -376,7 +375,7 @@ p{
 }
 
 .code{
-  width: 60%;
+  width: 75%;
   margin: 0 0 1rem 0;
   box-shadow: .6rem .2rem .5rem darkgrey;
 }
@@ -394,7 +393,7 @@ p{
 }
 
 .text-inside-center{
-  margin: 0 0 0 -1em;
+  /*margin: 0 0 0 -1em;*/
   padding-left: 5px;
 
 }
@@ -490,4 +489,23 @@ p{
   margin: .5rem 0 1rem 2rem;
   font-weight: 600;
   padding: 1em 0 0 0;
+}
+
+.site-button{
+  background-color: #0D5741;
+  border-radius: 5em;
+  margin-bottom: .5em;
+  padding: 5px 15px 5px 15px;
+  border: none;
+  color: #fff;
+  font-size: .5em;
+}
+
+.site-button:hover{
+  background-color: #E5F1DF;
+}
+
+.button-container{
+  display: flex;
+  justify-content: center;
 }

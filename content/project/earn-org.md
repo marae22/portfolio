@@ -2,8 +2,8 @@
 date = "2017-04-22T11:46:43-07:00"
 companyName = "EARN.org"
 liveLink = "https://help.earn.org/hc/en-us"
-projectDate = "March 2017"
-heroImage = "/earn-images/earnTitle.png"
+projectDate = ""
+heroImage = "/earn-images/earnTitle3-cs.png"
 screenShot = "/earn-images/screenShots.png"
 title = "EARN"
 
