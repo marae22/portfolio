@@ -456,8 +456,8 @@
   }
 
   .overview {
-    width: 45em;
-    margin-left: 1em;
+    width: 50em;
+    margin-left: 0;
   }
 
   .overview>div>p{
