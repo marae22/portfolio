@@ -274,8 +274,8 @@
     }
 
     #final-size{
-      height: 114vh;
-      margin-bottom: 6em;
+      height: 100%;
+      margin-bottom: 0;
     }
 
     .synthesis1{
@@ -307,12 +307,15 @@
     .apps>div>h4{
       font-weight: 400;
     }
-h
 
 }
 
 /*LANDSCAPE IPHONE 6*/
 @media (min-width: 665px) {
+
+  .sketch-container>div{
+    height: 71%;
+  }
 
   .screenshot{
     margin-left: auto;
@@ -404,7 +407,7 @@ h
   }
 
   .p-android{
-    width: 100vw;
+    width: 65vw;
   }
 
   .android-img{
@@ -415,6 +418,9 @@ h
     margin: 2em 3em 3em 3em;
   }
 
+  #final-size{
+    margin-bottom: 0;
+  }
 }
 
 /*LANDSCAPE IPHONE 6 Plus*/
@@ -440,6 +446,10 @@ h
 /*IPAD*/
 @media (min-width:765px) {
 
+  header{
+    height:58%
+  }
+
   .btn-new{
     margin-top: 32em;
     margin-bottom: 2em;
@@ -459,7 +469,7 @@ h
   }
 
   .research-title{
-    font-size: 4em;
+    font-size: 4.5em;
     margin: auto;
   }
 
@@ -474,18 +484,60 @@ h
   }
 
   .sketch-container {
-    height: 37vh;
-    margin-bottom: 0;
+    height: 40vh;
   }
 
   #final-size {
-    height: 46vh;
-    margin-bottom: 6em;
+    height: 50vh;
+    margin-bottom: 0;
   }
 
-  .sketch-container {
-    height: 34vh;
-    margin-bottom: 0;
+  .img-titles2{
+    font-size: 2.5em;
+  }
+
+  .p-android{
+    font-size: 1.5em;
+  }
+
+  .frequent-apps-title{
+    font-size: 1.5em;
+  }
+
+  .apps>div>h4 {
+    font-size: 1.5em;
+  }
+
+  .pie-text{
+    font-size: 1.5em;
+  }
+
+  .credit1{
+    font-size: 1em;
+  }
+
+  .text-inside-2{
+    font-size: 1.1em;
+  }
+
+  .text-inside-list{
+    font-size: 1.1em;
+  }
+
+  .zendesk-img{
+    margin-top: 1.8em;
+    margin-left: 5em;
+  }
+
+  .text-inside{
+    font-size: 1.1em;
+    margin-top: 1em;
+    padding: 0;
+  }
+
+  .site-button{
+    padding: 10px 25px 10px 25px;
+    font-size: .9em;
   }
 }
 
