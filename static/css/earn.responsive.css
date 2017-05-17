@@ -456,8 +456,8 @@
   }
 
   .overview {
-    width: 50em;
-    margin-left: 0;
+    width: 47em;
+    margin-left: .5em;
   }
 
   .overview>div>p{
@@ -543,5 +543,32 @@
 
 /*LANDSCAPE IPAD && IPAD Pro small desktop*/
 @media (min-width:1020px) {
+
+  header{
+    height: 71%;
+  }
+
+  .img-titles2{
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .overview {
+    flex-direction: row;
+    max-width: 80vw;
+     flex-wrap: wrap;
+    justify-content: center;
+    width: 52em;
+    margin-left: 95px;
+  }
+
+  .overview>div>p {
+    width: 25vw;
+  }
+
+  .research-title{
+    font-size: 5em;
+  }
+
 
 }
