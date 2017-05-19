@@ -3,8 +3,8 @@ date = "2017-04-22T11:46:43-07:00"
 companyName = "EARN.org"
 liveLink = "https://help.earn.org/hc/en-us"
 projectDate = ""
-heroImage = "/earn-images/earnTitle3-cs.png"
-screenShot = "/earn-images/screenShots.png"
+heroImage = "/earn-img/earnTitle.png"
+screenShot = "/earn-img/screenShot.png"
 title = "EARN"
 
 css = ['/css/earn.css', '/css/earn.responsive.css']
@@ -19,7 +19,7 @@ problem = "EARN.org is receiving too many customer support tickets."
 
 solution = "By re-designing EARN's help center we were able to empower EARN's users to answer their questions without having to submit a ticket."
 
-teamDuration = "My role was co-UX Designer with additional focus on content strategy and visual design. The duration of this project was 2 1/2 weeks."
+teamDuration = " "
 
 toolsMethods = [
   "Synthesize Research",

@@ -8,9 +8,37 @@ body{
   font-family: futura, cursive, sans-serif;
 }
 
-p{
-  font-size: .8em;
-  padding: 0 1em 0 1.5em;
+.role>p{
+  font-size: 1.6rem;
+  padding: 1em 1em 1em 1em;
+}
+
+h6{
+  margin: 1em;
+}
+
+.role{
+  background-color: #333;
+  color: #fff;
+  height: 20%;
+  text-align: center;
+  margin: 2em 0 3em 0;
+}
+
+.tools-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.tools-container>img{
+  width: 17%;
+  margin: .5em;
+}
+
+.insigt-container>h4{
+  margin: 0;
 }
 
 .title{
@@ -41,9 +69,18 @@ p{
   font-size: 3.5em;
 }
 
-.image-center{
+/*.image-center{
   display: flex;
   justify-content: center;
+}*/
+.title-container{
+  display: flex;
+  justify-content: center;
+}
+
+.bold-titles{
+  font-size: 2em;
+  font-weight: bold;
 }
 
 .final-title{
@@ -73,10 +110,7 @@ p{
   background-color: red;
 }*/
 
-.screenshot{
-  box-shadow: 2px 3px 5px darkgrey;
 
-}
 
 .bg-overview{
   background-color: #F4F9F2;
@@ -147,26 +181,36 @@ p{
 }
 
 .pie{
-  width: 60%;
-  margin: -1rem 1rem 1rem 9rem;
-  float: left;
+  width: 40vw;
+  height: 40vw;
 }
 
 .pie-text{
   font-size: 18px;
-  margin: 2em 0 1em 1em;
+  margin: 2.5em 0 1em 1em;
   width: 15em;
 }
 
-/*.freq-apps{
+.pie-container{
   display: flex;
+  justify-content: flex-start;
+  margin-left: 2em;
   flex-direction: row;
-  align-items: center;
-}*/
+}
+
+.men{
+  float: right;
+}
+
+.women{
+  float: right;
+  margin-right: 6em;
+  margin-top: -1em;
+}
 
 .frequent-apps-title{
   font-size: 18px;
-  margin: 3em 0 1em 1em;
+  margin: 2em 0 1em 1em;
   padding-right: 1em;
 }
 
@@ -200,22 +244,36 @@ p{
   align-self: flex-start;
 }
 
-.computer{
-  margin: 1rem 2rem 1rem 0;
-  width: 70%;
-  float: right;
-}
 
 .together{
-  margin: -12rem 0 3rem 2rem;
-  width: 60%;
+  margin: 3rem 0 .5em 0;
+  width: 100%;
+}
+
+.insigt-container>h4{
+  margin: 0 .5em;
+}
+
+.must-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.bg-img{
+  background-image: url("/earn-img/initial-sketches.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 35vh;
 }
 
 .img-titles2{
     font-size: 2.6rem;
     font-weight: 600;
-    color: #333;
-    margin-top: 2em;
+    color: #fff;
+    margin-top: 1em;
 }
 
 .text-inside-2{
@@ -246,8 +304,14 @@ p{
 }
 
 .text-inside{
-  padding: 0 1em 1em 1em;
-  text-align: justify;
+  text-align: center;
+  color: #fff;
+}
+
+.initial-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .zendesk-img{
@@ -392,7 +456,7 @@ p{
 }
 
 .code{
-  width: 75%;
+  width: 90%;
   margin: 0 0 1rem 0;
   box-shadow: .6rem .2rem .5rem darkgrey;
 }
@@ -404,8 +468,25 @@ p{
   box-shadow: .6rem .2rem .5rem darkgrey;
 }
 
-.num-users{
+.code3{
+  width: 40%;
+  height: 10%;
+  margin: 2em 0 1em 0;
+}
+
+.code4{
+  width: 10%;
+  height: 10%;
+  margin: 2em 0 1em 3em;
+}
+
+.testing-container{
   display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.testing-container>img{
 
 }
 

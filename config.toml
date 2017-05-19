@@ -55,28 +55,28 @@ publishDir = "../website"
 		buttonT = "TEST"
 
 
-	# #Service section
-	# [params.services]
-	# 	headline = "Programs I Use"
-  #       [[params.services.list]]
-  #           icon = "fa-diamond"
-  #           title = "Sketch"
-  #           description = "I use Sketch to create and refine lo-fidelity and hi-fidelity mockups."
-	#
-  #       [[params.services.list]]
-	# 		icon = "fa-paper-plane"
-	# 		title = "Flinto"
-	# 		description = "I use Flinto to show what can be done with my designs."
-	#
-	# 	[[params.services.list]]
-  #           icon = "fa-html5"
-  #           title = "HTML"
-  #           description = "I use HTML to frame my designs."
-	#
-  #       [[params.services.list]]
-  #           icon = "fa-css3"
-  #           title = "CSS"
-  #           description = "I use CSS to bring my designs to life."
+	#Service section
+	[params.services]
+		headline = "TOOLS"
+        [[params.services.list]]
+            icon = "fa-html5"
+            title = "HTML"
+            description = ""
+
+        [[params.services.list]]
+			icon = "fa-css3"
+			title = "CSS"
+			description = ""
+
+		[[params.services.list]]
+            icon = "earn-img/zendesk-icon.png"
+            title = "ZENDESK"
+            description = ""
+
+        [[params.services.list]]
+            icon = "fa fa-wordpress"
+            title = "WORDPRESS"
+            description = ""
 
     # Portfolio modals
 	[params.portfolio.modal]
