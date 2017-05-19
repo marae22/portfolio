@@ -55,28 +55,7 @@ publishDir = "../website"
 		buttonT = "TEST"
 
 
-	#Service section
-	[params.services]
-		headline = "TOOLS"
-        [[params.services.list]]
-            icon = "fa-html5"
-            title = "HTML"
-            description = ""
-
-        [[params.services.list]]
-			icon = "fa-css3"
-			title = "CSS"
-			description = ""
-
-		[[params.services.list]]
-            icon = "earn-img/zendesk-icon.png"
-            title = "ZENDESK"
-            description = ""
-
-        [[params.services.list]]
-            icon = "fa fa-wordpress"
-            title = "WORDPRESS"
-            description = ""
+	
 
     # Portfolio modals
 	[params.portfolio.modal]
