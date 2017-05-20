@@ -305,8 +305,14 @@ h6{
 }
 
 .sub-container{
+  display: flex;
+  justify-content: center;
   text-align: center;
-  width: 17em;
+  width: 20em;
+}
+
+.coding-container{
+  margin-bottom: 1em;
 }
 
 .img-container{
@@ -440,7 +446,7 @@ h6{
 }
 
 #final-size{
-  height: 100%;
+  /*height: 100%;*/
 }
 
 .sketch-container::-webkit-scrollbar {
@@ -450,13 +456,13 @@ h6{
 .sketch-container{
   width: 100%;
   overflow: auto;
-  height: 100%;
+  /*height: 100%;*/
   margin-bottom: .5em;
   display: flex;
 }
 
 .sketch-container>div{
-  height:100%;
+  /*height:100%;*/
   flex: 1 0 0%;
   min-width: 90%;
   margin-left: .5em;
@@ -470,7 +476,7 @@ h6{
 .sketch-container2{
   width: 100%;
   overflow: auto;
-  height: 100%;
+  /*height: 100%;*/
   /*margin-bottom: .5em;*/
   display: flex;
 }
@@ -539,6 +545,20 @@ h6{
   width: 10%;
   height: 10%;
   margin: 2em 0 1em 3em;
+}
+
+.code-contianer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3em;
+  margin-top: 1em;
+}
+
+.proto-container{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
 }
 
 .testing-container{
