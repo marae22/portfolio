@@ -3,11 +3,6 @@
 /*IPHONE 6*/
 @media (min-width:370px) {
 
-  .researchDesign>p{
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .credit1{
     text-align: center;
   }
@@ -40,7 +35,7 @@
 
   .frequent-apps-title{
     font-size: 18px;
-    margin: 3em 0 1em 2em;
+    margin: 2em 0 1em 2em;
     padding-right: 1em;
   }
 
@@ -55,11 +50,6 @@
     align-self: flex-start;
     margin-left: 1em;
   }
-
-  .pie{
-      width: 60%;
-      margin: -1rem 1rem 1rem 12rem;
-    }
 
   .pie-text{
     margin: 2em 0 1em 2em;
@@ -153,23 +143,93 @@
       height: 90vh;
     }
 
-    .btn-new{
-      margin-top: 9.5em;
-    }
-
     .overview {
       width: 30em;
       margin-left: 5em;
     }
 
-    .overviewSections{
-      margin-left: -4em;
+    .icon-title-container{
+      flex-direction: row;
+    }
+
+    .icon-title-container2{
+      flex-direction: row;
+    }
+
+    .role>p{
+      font-size: 1.8rem;
     }
 
     .android-img{
       width: 15%;
       float: right;
-      margin: -5em 4em 0 0;
+      margin: -3.5em 1.5em 0 0;
+    }
+
+    p{
+      font-weight: 300;
+    }
+
+    .p-android{
+      width: 25em;
+    }
+
+    .pie-text{
+      font-size: 18px;
+      width: 25em;
+    }
+
+
+    .men{
+      margin-right: 14em;
+    }
+
+    .women{
+      margin-right: 12em;
+      margin-top: -3em;
+    }
+
+    .pie-text{
+      font-weight: 300;
+    }
+
+    .freq-container>img{
+      height: 5.5em;
+    }
+
+    h2{
+      font-size: 1.2em;
+    }
+
+    h6{
+      font-size: 1.4rem;
+    }
+
+    .tools-container4{
+      justify-content: space-around;
+      margin-left: 0;
+    }
+
+    .tools-container4>img{
+      width: 15%;
+      padding: 0;
+    }
+
+    .bg-img{
+      height: 75vh;
+    }
+
+    .code{
+      width:65%;
+    }
+
+    .sub-container{
+      align-self: center;
+      width: 25em;
+    }
+
+    .ovtitles{
+      margin-left: 0;
     }
 
     .sketch-container{
@@ -185,21 +245,6 @@
       min-width: 65%;
       margin-left: 0;
       padding-top: .5em;
-    }
-
-    .men{
-      margin-left: 2em;
-      margin-top: -8em;
-    }
-
-    .women{
-      margin-right: 10.5em;
-      margin-top: -3em;
-    }
-
-    .pie-text{
-      font-size: 20px;
-      margin: 2em 0 1em 3em;
     }
 
     #final-size{
