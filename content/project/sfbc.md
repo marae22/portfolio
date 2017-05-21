@@ -22,14 +22,4 @@ outcomes = "  During this concept project, we created a strategy and design that
 outcomesImage = "/images/circleColor.png"
 reflections = "During this concept project, we created a strategy and design that would allowed San Francisco Bicycle Coalition (SFBC) members to easily report and track issues. This concept would allow members to actively contribute to the overall goals of the SFBC."
 researchSection ="research/sfbc.html"
-toolsMethods = [
-  "Contextual Inquiry",
-  "User Surveys & Interviews",
-  "Sketching",
-  "Prototyping",
-  "Usability Testing"
-]
-teamDuration ="My role was co-UX Designer with an additional focus on content strategy and visual design. The duration of this project was 2 weeks."
-
-
 +++

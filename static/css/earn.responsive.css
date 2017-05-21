@@ -145,42 +145,12 @@
 /*LANDSCAPE IPHONE 5*/
 @media (min-width: 565px) {
 
-    .text-inside-center{
-      margin-bottom: 0;
-    }
-
-    #size3{
-      width: 23em;
-    }
-
-    #size{
-      width: 30em;
-      text-align: justify;
-    }
-
-    .credit1{
-      text-align: center;
-    }
-
     section{
       padding: 0;
     }
 
-    p{
-      font-size:     1.5rem;
-    }
-
-    .text-inside-2{
-      font-size: 1.5rem;
-    }
-
     header{
       height: 90vh;
-    }
-
-
-    .researchDesign {
-    margin: 0;
     }
 
     .btn-new{
@@ -196,76 +166,35 @@
       margin-left: -4em;
     }
 
-    h4{
-      font-size: 20px;
-    }
-
-    .image-center {
-      margin-left: 5em;
-      width: 72vw;
-    }
-
-    .p-android{
-      width: 15em;
-      margin: 2em 0 0 3em;
-      font-size: 20px;
-      font-weight: 400;
-    }
-
     .android-img{
       width: 15%;
       float: right;
-      margin: -4em 5em 0 0;
-    }
-
-    .frequent-apps-title{
-      font-size: 20px;
-      margin: 3em 0 1em 3em;
-      padding-right: 1em;
-    }
-
-    .apps{
-      margin: 3em;
+      margin: -5em 4em 0 0;
     }
 
     .sketch-container{
-      height: 80vh;
       margin-bottom: 0;
     }
 
     .sketch-container>div>img{
-      width: 56vw;
+      width: 100%;
     }
 
     .sketch-container>div {
-      height: 100%;
       flex: 1 0 0%;
       min-width: 65%;
       margin-left: 0;
       padding-top: .5em;
     }
 
-    .code{
-      width: 50vw;
+    .men{
+      margin-left: 2em;
+      margin-top: -8em;
     }
 
-    .code2{
-      width: 65vw;
-      margin: 1em 0 2em 0;
-    }
-
-    .computer{
-      width: 60vw;
-      margin-top: 2em;
-    }
-
-    .together{
-      width: 50vw;
-    }
-
-    .pie{
-      width: 40%;
-      margin: -2em 1em 1em 15em;
+    .women{
+      margin-right: 10.5em;
+      margin-top: -3em;
     }
 
     .pie-text{
@@ -314,7 +243,7 @@
 @media (min-width: 665px) {
 
   .sketch-container>div{
-    height: 71%;
+    /*height: 71%;*/
   }
 
   .screenshot{
@@ -484,7 +413,7 @@
   }
 
   .sketch-container {
-    height: 40vh;
+    /*height: 40vh;*/
   }
 
   #final-size {
@@ -613,7 +542,7 @@
 
   .sketch-container {
      justify-content: flex-start;
-     height: 70vh;
+     /*height: 70vh;*/
   }
 
   #final-size{
@@ -709,7 +638,7 @@
   }
 
   .sketch-container{
-    height: 55vh;
+    /*height: 55vh;*/
   }
 
   .synthesis1{

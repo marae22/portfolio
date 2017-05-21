@@ -4,11 +4,26 @@ header{
   height: 45%;
 }
 
+hr{
+  max-width: 30%;
+  width: 30%;
+  margin-top: .1em;
+  margin-bottom: 1.5em;
+}
+
 body{
   font-family: futura, cursive, sans-serif;
 }
 
-
+.sketch-container>.fa{
+  position: absolute;
+}
+.sketch-container>.fa-chevron-left {
+  left:0;
+}
+.sketch-container>.fa-chevron-right {
+  right:0;
+}
 .role>p{
   font-size: 1.6rem;
   padding: 1em 1em 1em 1em;
@@ -97,8 +112,8 @@ h6{
 .tools-container3{
   display: flex;
   flex-direction: row;
-  align-items: center;
-  margin-left: 1.1em;
+  justify-content: space-around;
+  margin: auto;
 }
 
 .must-container{
@@ -130,6 +145,19 @@ h6{
 }
 
 .tools-container4>img{
+  width: 40%;
+  padding: 1em 0 0 3em;
+}
+
+.tools-container5{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 1.1em;
+  margin-bottom: 3em;
+}
+
+.tools-container5>img{
   width: 40%;
   padding: 1em 0 0 3em;
 }
@@ -174,6 +202,8 @@ h6{
 .bold-titles{
   font-size: 2em;
   font-weight: bold;
+  margin-top: 1em;
+
 }
 
 .final-title{
@@ -307,8 +337,30 @@ h6{
 .sub-container{
   display: flex;
   justify-content: center;
+  flex-direction: column;
   text-align: center;
-  width: 20em;
+  width: 20em
+}
+
+.sub-container>img{
+  width: 100%;
+  margin-bottom: 1.5em;
+  margin-top: 1em;
+}
+
+.sub-container>p{
+  margin-top: .5em;
+}
+
+.sub-container2{
+  display: flex;
+  justify-content: center;
+}
+
+.sub-container2>p{
+  color: #fff;
+  width: 30em;
+
 }
 
 .coding-container{
@@ -322,6 +374,14 @@ h6{
 
 .img-container>img{
   width: 100%;
+  margin-bottom: 1em;
+}
+
+.img-container>p{
+  text-align: justify;
+  align-self: center;
+  padding: 0;
+  width: 28em;
 }
 
 .sub-titles{
@@ -334,6 +394,13 @@ h6{
   font-size: 1.2em;
   text-align: center;
   color: #fff;
+}
+
+.sub-titles3{
+  font-size: 1.2em;
+  text-align: center;
+  margin: 1em 1em 1.5em 1em;
+
 }
 
 .img-titles2{
