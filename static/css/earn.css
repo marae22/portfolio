@@ -360,6 +360,14 @@ h6{
   margin-top: -1em;
 }
 
+.credit1{
+  font-size: 1.1rem;
+}
+
+.researchDesign>p{
+  font-size: 18px;
+}
+
 .frequent-apps-title{
   font-size: 16px;
   margin: 2.5em 0 0 0;
@@ -368,15 +376,15 @@ h6{
 
 .p-android{
   text-align: left;
-  width: 15em;
-  margin: 2.5em 0 0 0;
+  width: 20em;
+  margin: .5em 0 0 0;
   font-size: 16px;
 }
 
 .android-img{
   width: 20%;
-  float: right;
-  margin: -4.1em 1.2em 0 0;
+  float: left;
+  margin: -1em 1em 0 2em;
 }
 
 .together{

@@ -8,16 +8,21 @@
 
   .android-img{
     width: 20%;
-    float: right;
-    margin: -4em 2em 0 0;
+    float: left;
+    margin: -1em 3em 0 1.5em;
   }
 
-  .pie-container{
-    margin-left: 4em;
-  }
+    .p-android{
+      width: 23em;
+      margin-bottom: 3em;
+    }
 
   .women{
-    margin-right: 3em;
+    margin-right: 2.5em;
+  }
+
+  .freq-container>h6{
+    font-size: 1.4rem;
   }
 
   .sub-container{
@@ -25,7 +30,7 @@
   }
 
   .pie-container{
-    margin-left: 4.5em;
+    margin-left: 5em;
   }
 
 }
@@ -33,9 +38,51 @@
 /*IPHONE 6 Plus*/
 @media (min-width: 410px) {
 
-.android-img{
-  width: 20%;
-}
+  .android-img{
+    width: 20%;
+    margin: -1.5em 2em 2em 3em;
+  }
+
+  .p-android{
+    width: 25em;
+  }
+
+  .pie-text{
+    margin-top: 4em;
+    width: 23em;
+  }
+
+  .pie-container{
+    margin-left:6em;
+  }
+
+  .freq-container>img{
+    height: 5em;
+  }
+
+  .freq-container>h6{
+    font-size: 1.3rem
+  }
+
+  .must-icon-container>img{
+    height: 5em;
+  }
+
+  .must-icon-container>h6{
+    font-size: 1.3rem;
+  }
+
+  .women{
+    margin: -2em 4em 0 0;
+  }
+
+  .ovtitles{
+    margin-left: 0;
+  }
+
+  .overviewSections{
+    align-self: flex-start;
+  }
 
 }
 
@@ -67,18 +114,10 @@
       font-size: 1.8rem;
     }
 
-    .android-img{
-      width: 15%;
-      float: right;
-      margin: -3.5em 1.5em 0 0;
-    }
-
-    p{
-      font-weight: 300;
-    }
-
-    .p-android{
-      width: 25em;
+    .pie{
+      margin-left: 6em;
+      height: 40%;
+      width: 40%;
     }
 
     .pie-text{
@@ -86,13 +125,31 @@
       width: 25em;
     }
 
+    .android-img{
+      width: 16%;
+      float: left;
+      margin: -2em 1.5em .5em 2em;
+    }
+
+    p{
+      font-weight: 300;
+    }
+
+    .p-android{
+      width: 30em;
+      margin-top: 2em;
+      margin-bottom: 5em;
+      font-size: 18px;
+    }
+
+
 
     .men{
-      margin-right: 10em;
+      margin-right: 6em;
     }
 
     .women{
-      margin-right: 9em;
+      margin-right: 8.5em;
       margin-top: -3em;
     }
 
@@ -137,6 +194,10 @@
     .tools-container4>img{
       width: 15%;
       padding: 0;
+    }
+
+    .ovtitles{
+      align-self: center;
     }
 
     .bg-img{
@@ -215,39 +276,89 @@
 /*LANDSCAPE IPHONE 6*/
 @media (min-width: 665px) {
 
-  .screenshot{
-    width: 80vw;
+  .credit1{
+    font-size: 1.2rem;
+  }
+
+  .overview{
+    width: 40em;
+    justify-content: center;
   }
 
   section{
     padding: 0;
   }
 
-  p{
-    font-size: 1rem;
+  h4{
+    font-weight: 300;
+    font-size: 2.1rem;
   }
-
 
   .research-title{
     margin: auto;
   }
 
-  .zendesk-img{
-    margin-left: 3em;
-  }
-
-
   .pie-text{
     font-weight: 300;
-  }
-
-  .p-android{
-    width: 65vw;
+    margin-left: 2em;
   }
 
   .android-img{
     width: 15%;
+    margin: -2.5em 2em 1em 4em;
   }
+
+  .p-android{
+    margin-top: 1.5em;
+    width: 32em;
+  }
+
+  .pie{
+    width: 45%;
+    height: 45%;
+  }
+
+  .men{
+    font-size: 1.8rem;
+  }
+
+  .women{
+    font-size: 1.8rem;
+    margin-right: 6em;
+  }
+
+  .frequent-apps-title{
+    margin-left: 2em;
+  }
+
+  .freq-container>img{
+    height: 6em;
+  }
+
+  .freq-container>h6{
+    font-size: 1.8rem;
+  }
+
+  .must-icon-container>img{
+    height: 6em;
+  }
+
+  .must-icon-container>h6{
+    font-size: 1.8rem;
+  }
+
+  .icon-title-container>img{
+    height: 4em;
+  }
+
+  .icon-title-container>.css-icon{
+    width: 3.5em;
+  }
+
+  .icon-title-container2>img{
+    height: 4em;
+  }
+
 }
 
 /*LANDSCAPE IPHONE 6 Plus*/
@@ -256,159 +367,199 @@
     padding: 0;
   }
 
-  header .header-content {
-    /*margin-top: 5em;*/
-    height: 70vh;
+  .overview{
+    justify-content: space-around;
+    width: 100%;
   }
 
-  .btn-new{
-    margin-top: 14em;
+  .section-container{
+    margin-left: 0;
   }
 
-    .research-title{
-      margin: auto;
-    }
+  .overviewSections{
+    font-size: 1.3rem;
+  }
+
+  .tools-title-container{
+    margin-left: 1em;
+  }
+
+  .tools-container{
+    margin-bottom: 5em;
+  }
+
+  .screenshot{
+    margin: 1em 0;
+  }
+
+  .p-android{
+    width: 33em;
+    font-size: 2.2rem;
+  }
+
+  .android-img{
+    margin-left: 4em;
+    margin-right: 3em;
+  }
+
+  .sub-titles{
+    font-size: 2.5rem;
+  }
+
+  .credit1{
+    font-size: 1.5rem;
+  }
+
+  .bold-titles{
+    font-size: 4rem;
+  }
+
+  .researchDesign>p{
+    font-size: 2.2rem;
+  }
+
+  h4{
+    font-size: 2.2rem;
+  }
+
+  .men{
+    font-size: 2rem;
+  }
+
+  .women{
+    font-size: 2rem;
+  }
 }
 
 /*IPAD*/
 @media (min-width:765px) {
-
   header{
-    height:58%
+    min-height: 42%;
+    height: 42vh;
   }
 
-  .btn-new{
-    margin-top: 32em;
-    margin-bottom: 2em;
+  .bold-titles{
+    font-size: 5.5rem;
   }
 
-  .overview {
-    width: 47em;
-    margin-left: .5em;
+  hr{
+    margin-bottom: 3em;
   }
 
-  .overview>div>p{
-    width: 30vw;
-  }
-
-  .overviewSections2{
-    margin-left: 0;
-  }
-
-  .research-title{
-    font-size: 4.5em;
-    margin: auto;
-  }
-
-  .screenshot{
-    width: 80vw;
-    margin: auto;
-  }
-
-  .image-center {
-     margin-left: 0;
-     width: 100vw;
-  }
-
-  .sketch-container {
-    /*height: 40vh;*/
-  }
-
-  #final-size {
-    height: 50vh;
-    margin-bottom: 0;
-  }
-
-  .img-titles2{
-    font-size: 2.5em;
+  .sub-titles{
+    font-size: 1.7em;
   }
 
   .p-android{
-    font-size: 1.5em;
+    font-size: 2.5rem;
+    width: 30em;
   }
 
-  .frequent-apps-title{
-    font-size: 1.5em;
+  .freq-container>img{
+    height: 6.5em;
   }
 
-  .apps>div>h4 {
-    font-size: 1.5em;
+  .freq-container>h6{
+    font-size: 2rem;
+  }
+
+  .must-icon-container>img{
+    height: 6.5em;
+  }
+
+  .must-icon-container>h6{
+    font-size: 2rem;
+  }
+
+  h4{
+    font-size: 2.5rem;
+  }
+
+  .sub-titles{
+    font-size: 2.7rem;
+  }
+
+  .pie{
+    width: 35%;
+  }
+
+  .men{
+    margin-left: 2em;
+  }
+
+  .women{
+    margin-right: 9em;
   }
 
   .pie-text{
-    font-size: 1.5em;
+    margin-bottom: 1.5em;
+  }
+
+  .researchDesign>p{
+    font-size: 2.5rem;
   }
 
   .credit1{
     font-size: 1em;
   }
 
-  .text-inside-2{
-    font-size: 1.1em;
-  }
-
-  .text-inside-list{
-    font-size: 1.1em;
-  }
-
-  .zendesk-img{
-    margin-top: 1.8em;
-    margin-left: 5em;
-  }
-
-  .text-inside{
-    font-size: 1.1em;
-    margin-top: 1em;
-    padding: 0;
-  }
-
   .site-button{
     padding: 10px 25px 10px 25px;
     font-size: .9em;
   }
+
+  .overview .section-container{
+    flex: none;
+    min-width: 0;
+  }
+
+  .bg-img{
+    height: 46vh;
+  }
+
+  .code{
+    width: 75%;
+  }
+
+  .sketch-container{
+    height: 100%;
+  }
+
 }
 
 /*LANDSCAPE IPAD && IPAD Pro small desktop*/
 @media (min-width:1020px) {
 
   header{
-    height: 71%;
+    height: 80%;
   }
 
   .overview {
     flex-direction: row;
-    max-width: 80vw;
+    max-width: 100%;
     flex-wrap: wrap;
-    justify-content: center;
-    width: 80em;
-    margin-left: 60px;
-  }
-
-  .overview>div{
-    margin-left: 1.6em;
+    justify-content: space-around;
+    width: 100%;
   }
 
   .overview>div>p {
-    width: 30vw;
+    width: 25vw;
   }
 
-  .research-title{
-    font-size: 6em;
+  .bold-titles{
+    font-size: 6.5rem;
   }
 
-  .img-titles2 {
-    margin-left: 1em;
-    text-align: left;
-    font-size: 3em;
+  hr{
+    margin-bottom: 5em;
+  }
+
+  .sub-titles{
+    font-size: 3.5rem;
   }
 
   .credit1{
-    font-size: 1.1em;
-  }
-
-  #size2{
-    width: 30em;
-    margin-left: 2em;
+    font-size: 1.4em;
   }
 
   .p-android{
@@ -416,31 +567,48 @@
   }
 
   .android-img{
-    margin-top: -5em;
-    margin-right: 7em;
+    width: 10em;
+    margin: -3em 3em 0 5em;
   }
 
-  .apps>div>img{
-    width:45%;
-    margin-top: 1em;
-  }
-
-  .frequent-apps-title{
+  .researchDesign>p{
     font-size: 2em;
   }
 
-  .pie-text{
-    font-size: 2em;
+  .men{
+    font-size: 1.5em;
   }
 
-  .apps>div>h4 {
-    font-size: 2em;
-    margin-left: 2em;
+  .women{
+    font-size: 1.5em;
+  }
+
+  .pie{
+    margin-left: 12em;
+  }
+
+  .icon-title-container{
+    flex-direction: column;
+  }
+
+  .icon-title-container>img{
+    height: 6em;
+  }
+
+  .icon-title-container>.css-icon{
+    width: 5em;
+  }
+
+  .icon-title-container2{
+    flex-direction: column;
+  }
+
+  .icon-title-container2>img{
+    height: 6em;
   }
 
   .sketch-container {
      justify-content: flex-start;
-     /*height: 70vh;*/
   }
 
   #final-size{
