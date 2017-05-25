@@ -530,8 +530,22 @@
 /*LANDSCAPE IPAD && IPAD Pro small desktop*/
 @media (min-width:1020px) {
 
+  h6{
+    font-size: 1.8rem;
+  }
+
+  .role{
+    height: auto;
+  }
+
+  .role>p{
+    width: 30em;
+    font-size: 3rem;
+    padding: 1.5em;
+  }
+
   header{
-    height: 80%;
+    height: 40%;
   }
 
   .overview {
@@ -543,7 +557,12 @@
   }
 
   .overview>div>p {
-    width: 25vw;
+    width: 30vw;
+    font-size: 1.7rem;
+  }
+
+  .ovtitles{
+    font-size: 2.5rem;
   }
 
   .bold-titles{
@@ -555,20 +574,29 @@
   }
 
   .sub-titles{
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 
   .credit1{
     font-size: 1.4em;
   }
 
+  .android-container{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+  }
+
+
   .p-android{
-    font-size: 2em;
+    font-size: 1.7em;
+    width: 13em;
+    text-align: center;
   }
 
   .android-img{
     width: 10em;
-    margin: -3em 3em 0 5em;
+    margin: 0 3em 0 5em;
   }
 
   .researchDesign>p{
@@ -585,6 +613,18 @@
 
   .pie{
     margin-left: 12em;
+  }
+
+  .frequent-apps-title{
+    margin-bottom: 1em;
+  }
+
+  .freq-container>img{
+    height: 8em;
+  }
+
+  .freq-container>h6{
+    font-size: 2.5rem;
   }
 
   .icon-title-container{

@@ -45,8 +45,8 @@
       <h6>Be easy to read</h6>
     </div>
     <div class="must-icon-container">
-      <img src="/earn-img/mobile-friendly.png">
-      <h6>Be mobile friendly</h6>
+      <img class="mobile-friendly" src="/earn-img/mobile-friendly.png">
+      <h6 class="mobile-friendly">Be mobile friendly</h6>
     </div>
     <div class="must-icon-container">
       <img src="/earn-img/positive.png">
@@ -122,8 +122,12 @@
   </div>
 </div>
   <div class="sub-container">
-    <img class="right-set" src="/earn-img/imgOne.png">
-    <p>During usability testing we asked our users to take a look at some exisiting help center pages and walk us through their process be if using that page to find an answer to a question.</p>
+    <div>
+      <img class="right-set" src="/earn-img/imgOne.png">
+    </div>
+    <div>
+      <p>During usability testing we asked our users to take a look at some exisiting help center pages and walk us through their process be if using that page to find an answer to a question.</p>
+    </div>
     <img src="/earn-img/imgTwo.png">
     <p>After that we had our users test our initial prototype on a moblie device to see what areas we needed to change to make our site the best it could be.</p>
     <img src="/earn-img/imgThree.png">
@@ -175,4 +179,30 @@
 <div class="button-container">
   <a href="https://help.earn.org/hc/en-us"><button class="site-button">GO TO SITE</button></a>
 </div>
+
+
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="/earn-images/secondIteration1.png" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="/earn-images/secondIteration2.png" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="/earn-images/secondIteration3.png" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
 </section>
