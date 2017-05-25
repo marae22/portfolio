@@ -342,6 +342,10 @@ h6{
   margin: 0;
 }
 
+.pie{
+  width: 40%;
+}
+
 .pie-text{
   font-size: 16px;
   margin: 2em 0 1em 0;
@@ -351,9 +355,8 @@ h6{
 
 .pie-container{
   display: flex;
-  justify-content: flex-start;
-  margin-left: 2em;
-  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .men{
@@ -898,6 +901,7 @@ h6{
 
 /* Fading animation */
 .fade {
+  opacity: 1;
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
