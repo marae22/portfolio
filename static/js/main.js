@@ -5,7 +5,7 @@ document.querySelectorAll(".sketch-container").forEach(function(slide){
   }
 })
 
-var slideIndex = 1;
+var slideIndex = 0;
 showSlides(slideIndex);
 
 function plusSlides(n) {

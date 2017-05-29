@@ -25,6 +25,26 @@ body{
   right: 1em;
 }
 
+.right-set{
+  width: 100%;
+  float: right;
+  margin: 1em 0;
+}
+
+.left-set{
+  width: 100%;
+  float: left;
+  margin: 1em 0;
+}
+
+/*.text-left{
+  width: 30em;
+  margin: 11em 0 auto 3em;
+  text-align: center;
+  font-size: 1rem;
+  align-self: center;
+}*/
+
 .hide{
   display: none;
 }
@@ -236,6 +256,17 @@ h6{
 .insigt-container>h4{
   margin: 0;
 }
+
+.pie-container{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.android-pie-conatiner{
+  display: flex;
+  flex-direction: column;
+}
+
 
 .title{
   display: none;
@@ -712,19 +743,7 @@ h6{
   margin-bottom: 2em;
 }
 
-.testing-container{
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-}
-
-.testing-container>img{
-
-}
-
 .text-inside-center{
-  /*margin: 0 0 0 -1em;*/
-  /*padding-left: 5px;*/
   text-align: center;
 
 }
@@ -844,8 +863,6 @@ h6{
 * {box-sizing:border-box}
 
 
-
-
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
@@ -854,6 +871,13 @@ h6{
 }
 
 .mySlides {
+    display: none;
+}
+
+.mySlides2 {
+    display: none;
+}
+.mySlides3 {
     display: none;
 }
 

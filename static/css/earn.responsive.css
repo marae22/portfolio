@@ -17,20 +17,12 @@
       margin-bottom: 3em;
     }
 
-  .women{
-    margin-right: 2.5em;
-  }
-
   .freq-container>h6{
     font-size: 1.4rem;
   }
 
   .sub-container{
     width: 100%;
-  }
-
-  .pie-container{
-    margin-left: 5em;
   }
 
 }
@@ -48,12 +40,7 @@
   }
 
   .pie-text{
-    margin-top: 4em;
     width: 23em;
-  }
-
-  .pie-container{
-    margin-left:6em;
   }
 
   .freq-container>img{
@@ -70,10 +57,6 @@
 
   .must-icon-container>h6{
     font-size: 1.3rem;
-  }
-
-  .women{
-    margin: -2em 4em 0 0;
   }
 
   .ovtitles{
@@ -115,8 +98,6 @@
     }
 
     .pie{
-      margin-left: 6em;
-      height: 40%;
       width: 40%;
     }
 
@@ -140,17 +121,6 @@
       margin-top: 2em;
       margin-bottom: 5em;
       font-size: 18px;
-    }
-
-
-
-    .men{
-      margin-right: 6em;
-    }
-
-    .women{
-      margin-right: 8.5em;
-      margin-top: -3em;
     }
 
     .pie-text{
@@ -315,16 +285,6 @@
 
   .pie{
     width: 45%;
-    height: 45%;
-  }
-
-  .men{
-    font-size: 1.8rem;
-  }
-
-  .women{
-    font-size: 1.8rem;
-    margin-right: 6em;
   }
 
   .frequent-apps-title{
@@ -422,12 +382,12 @@
     font-size: 2.2rem;
   }
 
-  .men{
-    font-size: 2rem;
+  .right-set{
+    width: 50%;
   }
 
-  .women{
-    font-size: 2rem;
+  .left-set{
+    width: 50%;
   }
 }
 
@@ -479,20 +439,24 @@
     font-size: 2.7rem;
   }
 
+  .android-pie-conatiner{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .android-pie-conatiner>div{
+    margin-left: 6em;
+    align-self: center;
+  }
+
+
   .pie{
-    width: 35%;
+    width: 95%;
   }
 
-  .men{
-    margin-left: 2em;
-  }
 
-  .women{
-    margin-right: 9em;
-  }
-
-  .pie-text{
-    margin-bottom: 1.5em;
+  .p-android{
+    margin-bottom: 0;
   }
 
   .researchDesign>p{
@@ -529,6 +493,11 @@
 
 /*LANDSCAPE IPAD && IPAD Pro small desktop*/
 @media (min-width:1020px) {
+
+  .pie-container{
+    flex-direction: column;
+  }
+
 
   h6{
     font-size: 1.8rem;
@@ -603,18 +572,6 @@
     font-size: 2em;
   }
 
-  .men{
-    font-size: 1.5em;
-  }
-
-  .women{
-    font-size: 1.5em;
-  }
-
-  .pie{
-    margin-left: 12em;
-  }
-
   .frequent-apps-title{
     margin-bottom: 1em;
   }
@@ -665,6 +622,10 @@
 
   header{
     height: 50%;
+  }
+
+  .pie-container{
+    flex-direction: column;
   }
 
   .overview {

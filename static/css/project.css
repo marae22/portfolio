@@ -43,17 +43,9 @@ section{
   margin-bottom: 1em;
 }
 
-.sketch-container.biker{
-  /*height: 18rem;*/
-}
-.container.usability {
-  /*height: 35rem;*/
-}
 .sketch-container>div{
-  /*height: 100%;*/
   flex: 1 0 0%;
   margin-left: .5em;
-  /*padding: 2em 0 1em 0;*/
 }
 
 
