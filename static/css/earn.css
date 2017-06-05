@@ -43,7 +43,7 @@ body{
 
 .role>p{
   font-size: 1.6rem;
-  padding: 1em 1em 1em 1em;
+  padding: 2em 1em 2em 1em;
   margin: 0;
 }
 
@@ -368,7 +368,7 @@ h6{
 }
 
 .pie{
-  width: 80%;
+  width: 60%;
 }
 
 
