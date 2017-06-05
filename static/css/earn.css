@@ -37,14 +37,6 @@ body{
   margin: 1em 0;
 }
 
-/*.text-left{
-  width: 30em;
-  margin: 11em 0 auto 3em;
-  text-align: center;
-  font-size: 1rem;
-  align-self: center;
-}*/
-
 .hide{
   display: none;
 }
@@ -52,6 +44,7 @@ body{
 .role>p{
   font-size: 1.6rem;
   padding: 1em 1em 1em 1em;
+  margin: 0;
 }
 
 p{
@@ -96,7 +89,7 @@ h6{
 }
 
 .mobile-friendly{
-  margin-left: 1em;
+  margin-left: 2em;
 }
 
 .role{
@@ -290,6 +283,7 @@ h6{
 
 .researchDesign{
   align-self: auto;
+  margin-top: 1.5em;
 }
 
 .research-title{
@@ -374,15 +368,9 @@ h6{
 }
 
 .pie{
-  width: 40%;
+  width: 80%;
 }
 
-.pie-text{
-  font-size: 16px;
-  margin: 2em 0 1em 0;
-  width: 17em;
-  text-align: left;
-}
 
 .pie-container{
   display: flex;
@@ -390,27 +378,16 @@ h6{
   align-items: center;
 }
 
-.men{
-  float: right;
-}
-
-.women{
-  float: right;
-  margin-right: 2.5em;
-  margin-top: -1em;
-}
-
 .credit1{
   font-size: 1.1rem;
 }
 
 .researchDesign>p{
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .frequent-apps-title{
-  font-size: 16px;
-  margin: 2.5em 0 0 0;
+  margin: 1em 0 0 0;
   text-align: left;
 }
 
@@ -418,6 +395,13 @@ h6{
   text-align: left;
   width: 20em;
   margin: .5em 0 0 0;
+  font-size: 16px;
+}
+
+.pie-text{
+  text-align: left;
+  width: 20em;
+  margin: 1.5em 0 0 0;
   font-size: 16px;
 }
 
@@ -433,9 +417,13 @@ h6{
 }
 
 .insigt-container>h4{
-  margin: 0 .5em;
+  text-align: center;
 }
 
+.white-text{
+  color: #fff;
+  /*width: 18em;*/
+}
 
 .bg-img{
   background-image: url("/earn-img/initial-sketches.png");
@@ -539,9 +527,15 @@ h6{
 .gathered-container{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  /*text-align: center;*/
+  align-self: center;
 }
+
+.p-subtitles{
+  width:  19em;
+}
+
 
 .img-titles3{
     font-size: 2.6rem;
@@ -844,7 +838,7 @@ h6{
 .site-button{
   background-color: #0D5741;
   border-radius: 5em;
-  margin-bottom: .5em;
+  margin-bottom: 1.5em;
   padding: 10px 20px 10px 20px;
   border: none;
   color: #fff;
