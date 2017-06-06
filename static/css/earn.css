@@ -395,14 +395,15 @@ h6{
   text-align: left;
   width: 20em;
   margin: .5em 0 0 0;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .pie-text{
   text-align: left;
-  width: 20em;
-  margin: 1.5em 0 0 0;
-  font-size: 16px;
+  width: 21em;
+  margin-top: 1em;
+  text-align: center;
+  font-size: 15px;
 }
 
 .android-img{
