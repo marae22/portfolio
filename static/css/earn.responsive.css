@@ -562,8 +562,8 @@
 
   .role>p{
     width: 30em;
-    font-size: 3rem;
-    padding: 1.5em;
+    font-size: 2.5rem;
+    padding: 2.5em;
   }
 
   header{
@@ -588,15 +588,11 @@
   }
 
   .bold-titles{
-    font-size: 6.5rem;
+    font-size: 5.5rem;
   }
 
   hr{
     margin-bottom: 5em;
-  }
-
-  .sub-titles{
-    font-size: 3rem;
   }
 
   .credit1{
@@ -607,6 +603,10 @@
 
   .android-pie-conatiner{
     margin-bottom: 6em;
+  }
+
+  .android-pie-conatiner>div{
+    margin-left: 7.5em;
   }
 
   .pie{
@@ -692,10 +692,6 @@
     height: 90vh;
   }
 
-  .site-button{
-    margin-bottom: -9em;
-  }
-
   .together{
     margin-bottom: 3em;
   }
@@ -710,13 +706,22 @@
   }
 
   .sub-titles2{
-    font-size: 4rem;
-    margin: 2em 0 1.5em 0;
+    font-size: 3.2rem;
+    margin: 3em 0 1.5em 0;
+  }
+
+  .slideshow-container{
+    width: 80%;
+  }
+
+  .code{
+    width: 80%;
   }
 
   .bg-img{
     height: 59vh;
     width: 100vw;
+    margin-bottom: 5em;
   }
 
   .insigt-container>h4 {
@@ -729,7 +734,7 @@
   }
 
   .sub-titles{
-    font-size: 4rem;
+    font-size: 3.2rem;
     margin-bottom: 1em;
   }
 
@@ -741,11 +746,64 @@
 
   .tools-container4>img{
     margin: 0 3em 0 3em;
+    width: 11%;
   }
 
   .white-container{
     display: flex;
     justify-content: center;
+  }
+
+  .text-alignment{
+    width: 27em;
+    text-align: left;
+    margin-top: 8em;
+  }
+
+  .text-alignment2{
+    width: 26em;
+    text-align: left;
+    margin-top: 8em;
+    margin-left: 1.5em;
+  }
+
+  .final-space{
+    margin-top: 4em;
+  }
+
+  .sub-container>p{
+    font-size: 1.8rem;
+    width: 35em;
+  }
+
+  .sub-container{
+    align-items: center;
+    width: 100%
+  }
+
+  .overall-conatiner{
+    margin-bottom: 2em;
+  }
+
+  .conclusion-container{
+    margin-bottom: 3em;
+  }
+
+  .container{
+    margin-top: 1em;
+  }
+
+  .container>div>div>p{
+    width: 35em;
+    margin: -1.5em 0 2em 8em;
+  }
+
+  .container>div>div>div>p{
+    width: 15em;
+  }
+
+  .conclusion-text{
+    margin-bottom: 2em;
   }
 
 }
