@@ -141,7 +141,8 @@
     }
 
     .pie{
-      width: 40%;
+      width: 70%;
+      margin-bottom: 1em;
     }
 
     .pie-text{
@@ -157,12 +158,14 @@
 
     p{
       font-weight: 300;
+      width: 35em;
+      margin-bottom: 3.5em;
     }
 
     .p-android{
       width: 30em;
       margin-top: 2em;
-      margin-bottom: 5em;
+      margin-bottom: 2em;
       font-size: 18px;
     }
 
@@ -171,7 +174,11 @@
     }
 
     .freq-container>img{
-      height: 5.5em;
+      height: 4.5em;
+    }
+
+    .researchDesign>p{
+      font-size: 18px;
     }
 
     h2{
@@ -207,6 +214,7 @@
     .tools-container4>img{
       width: 15%;
       padding: 0;
+      margin: 0;
     }
 
     .ovtitles{
@@ -278,6 +286,8 @@
 
     .frequent-apps-title{
       font-weight: 400;
+      text-align: center;
+      margin-top: 1em;
     }
 
     .apps>div>h4{
@@ -542,7 +552,6 @@
     flex-direction: column;
   }
 
-
   h6{
     font-size: 1.8rem;
   }
@@ -558,7 +567,7 @@
   }
 
   header{
-    height: 40%;
+    height: 60%;
   }
 
   .overview {
@@ -591,41 +600,68 @@
   }
 
   .credit1{
-    font-size: 1.4em;
+    font-size: 1.1em;
+    align-self: center;
+    margin-bottom: 2em;
+  }
+
+  .android-pie-conatiner{
+    margin-bottom: 6em;
+  }
+
+  .pie{
+    margin-bottom: 0;
+    width: 80%;
+  }
+
+  .pie-text{
+    font-size:2.5rem;
+    width: 15em;
+    text-align: center;
+    margin-left: 0;
+    margin-bottom: -.5em;
+    margin-top: .5em;
   }
 
   .android-container{
     display: flex;
     flex-direction: column;
-    align-self: center;
+    justify-content: center;
+    align-items: center;
   }
 
-
   .p-android{
-    font-size: 1.7em;
+    font-size: 2.5rem;
     width: 13em;
     text-align: center;
+    margin-top: 0;
   }
 
   .android-img{
-    width: 10em;
-    margin: 0 3em 0 5em;
+    width: 40%;
+    margin: 0 3em 1em 5em;
   }
 
   .researchDesign>p{
-    font-size: 2em;
+    font-size: 2.5rem;
   }
 
   .frequent-apps-title{
-    margin-bottom: 1em;
+    margin-bottom: 2.5em;
+    margin-left: 0;
+    width: 100%;
   }
 
   .freq-container>img{
-    height: 8em;
+    height: 6em;
   }
 
-  .freq-container>h6{
-    font-size: 2.5rem;
+  .freq-container>h6 {
+    font-size: 1.8rem;
+}
+
+  .freq-container{
+    margin-bottom: 3em;
   }
 
   .icon-title-container{
@@ -658,6 +694,58 @@
 
   .site-button{
     margin-bottom: -9em;
+  }
+
+  .together{
+    margin-bottom: 3em;
+  }
+
+  p{
+    width: 40em;
+    font-size: 1.8rem;
+  }
+
+  .p-subtitles{
+    width:100%;
+  }
+
+  .sub-titles2{
+    font-size: 4rem;
+    margin: 2em 0 1.5em 0;
+  }
+
+  .bg-img{
+    height: 59vh;
+    width: 100vw;
+  }
+
+  .insigt-container>h4 {
+    margin: 0 0 1.5em 0;
+  }
+
+  .must-icon-container>h6 {
+    font-size: 1.8rem;
+    margin-bottom: 3em;
+  }
+
+  .sub-titles{
+    font-size: 4rem;
+    margin-bottom: 1em;
+  }
+
+  .tools-container4{
+    margin-top: 1.5em;
+    margin-bottom: 3em;
+    justify-content: center;
+  }
+
+  .tools-container4>img{
+    margin: 0 3em 0 3em;
+  }
+
+  .white-container{
+    display: flex;
+    justify-content: center;
   }
 
 }
