@@ -24,12 +24,12 @@ publishDir = "../website"
 	description = "Best Designer Ever"
 
 	# The path must be relative to the static folder
-	favicon = "logo.png"
+	favicon = "images/favicon.png"
 
 
 	# Navigation
 	[params.navigation]
-		brand = "logo.png"
+		brand = "images/logo1.png"
 
 		[params.navigation.links]
 			about     = "About"
@@ -55,7 +55,7 @@ publishDir = "../website"
 		buttonT = "TEST"
 
 
-	
+
 
     # Portfolio modals
 	[params.portfolio.modal]
