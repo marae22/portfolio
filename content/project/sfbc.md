@@ -2,15 +2,18 @@
 companyName = "SFBC"
 date = "2017-04-22T11:31:29-07:00"
 liveLink = ""
-subHeadline = "MAKING REPORTING AND TRACKING ISSUE EASIER THAN EVER"
-title = "San Francisco Bicycle Coalition"
-projectDate = "February 2017"
-heroImage = "/images/bikes.png"
+subHeadline = ""
+title = ""
+projectDate = ""
+heroImage = "/sfbc/mainTitle.png"
 screenshot = "/images/screenShots.png"
 sectionTitle = "RESEARCH & DESIGN"
-css = ['/css/project.css', '/css/project.responsive.css']
+css = ['/css/project.css', '/css/project.responsive.css', '/css/earn.css', '/css/project.responsive.css']
 
 listImage = "/images/sfbcTitle.png"
+
+
+tool1 = "/sfbc/sketchLogo.png"
 
 overview = "The SFBC is a non-profit organization that is committed to making the city of San Francisco safer for all cyclists."
 
