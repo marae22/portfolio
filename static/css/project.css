@@ -1,66 +1,40 @@
-header{
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-bottom: 1em;
+h2{
+  padding: 0 1.5em;
 }
 
-header .header-content{
-  margin-top: 2em;
-  padding: 3em .5em 0 .5em;
-}
-
-body{
-  font-size: 16px;
-  font-family: Futura, cursive, sans-serif;
-}
-
-p{
-  font-size: .8em;
-  padding: 0 1em 0 1.5em;
-}
-
-section{
-  padding:0;
-}
-
-.overviewSections{
-  color: #333;
-  font-size: .8em;
-  align-self: center;
-  margin-left: .5em;
-}
-
-.image-center{
+.screenshot-container{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
 }
 
 .screenshot{
-    width: 90%;
+  width: 70%;
+  margin-left: 4em;
 }
 
 .graph1{
-  width: 80%;
+  width: 90%;
 }
 
 .graph2{
-  width: 80%;
+  width: 90%;
 }
 
-.graph-container{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin-bottom: 1em;
+.interview-container{
+ display: flex;
+ flex-direction: column;
 }
 
-.percent{
-  color:#333;
+.interview{
+  width: 100vw;
 }
 
-.tools-container{
-  flex-wrap: wrap;
+.sketches{
+  width: 90vw;
+}
+
+.key{
+  width: 20vw;
 }
 
 .lo-fi-container{
@@ -69,16 +43,14 @@ section{
 }
 
 .lo-fi{
-  width: 70%;
+  width: 80vw;
 }
 
-.lo-fi-placement{
-  justify-content: space-around;
-}
-
-/*OVERALL*/
-.collection{
+.hi-fi-container{
   display: flex;
   flex-direction: column;
-  padding-bottom: 0;
+}
+
+.hi-fi{
+  width: 70vw;
 }

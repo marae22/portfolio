@@ -3,21 +3,11 @@
     <h2 class="ovtitles">TOOLS</h2>
   </div>
   <div class="tools-container">
+    {{ range .Params.tools }}
     <div class="icon-title-container">
-      <img class="html-icon" src="/earn-img/html-icon.png">
-      <h6>HTML</h6>
+      <img class="{{.className}}" src="{{.image}}">
+      <h6>{{.name}}</h6>
     </div>
-    <div class="icon-title-container">
-      <img class="css-icon" src="/earn-img/css-icon.png">
-      <h6>CSS</h6>
-    </div>
-    <div class="icon-title-container">
-      <img class="wordpress-icon" src="/earn-img/wordpress-icon.png">
-      <h6>WORDPRESS</h6>
-    </div>
-    <div class="icon-title-container">
-      <img class="zendesk-icon" src="/earn-img/zendesk-icon.png">
-      <h6>ZENDESK</h6>
-    </div>
+    {{ end }}
   </div>
 </section>
