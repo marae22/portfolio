@@ -548,6 +548,16 @@
 /*LANDSCAPE IPAD && IPAD Pro small desktop*/
 @media (min-width:1020px) {
 
+  .left-set{
+    width: 45%;
+    margin: -5em 0 0 5em;
+  }
+
+  .right-set{
+    width: 45%;
+    margin: 1em 5em 0 0;
+  }
+
   .pie-container{
     flex-direction: column;
   }
@@ -697,7 +707,7 @@
   }
 
   p{
-    width: 40em;
+    width: 100vw;
     font-size: 1.8rem;
   }
 
@@ -757,13 +767,13 @@
   .text-alignment{
     width: 27em;
     text-align: left;
-    margin-top: 8em;
+    margin-top: 1em;
   }
 
   .text-alignment2{
     width: 26em;
     text-align: left;
-    margin-top: 8em;
+    margin-top: 1em;
     margin-left: 1.5em;
   }
 
@@ -781,7 +791,7 @@
     width: 100%
   }
 
-  .overall-conatiner{
+  .overall-container{
     margin-bottom: 2em;
   }
 
@@ -886,7 +896,7 @@
     margin-left: 3em;
   }
 
-  .overall-conatiner{
+  .overall-container{
     margin-top: 3em;
     margin-bottom: 4em;
   }

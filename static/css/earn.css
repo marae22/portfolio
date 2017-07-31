@@ -52,6 +52,11 @@ p{
   font-family: futura-pt, sans-serif;
   font-style: normal;
   font-weight: 300;
+  width: 95vw;
+}
+
+.screenshot-container{
+  justify-content: flex-end;
 }
 
 h2{
@@ -299,6 +304,7 @@ h6{
   font-size: 2em;
   font-weight: bold;
   margin-top: 1em;
+  text-align: center;
 
 }
 
@@ -525,13 +531,24 @@ h6{
   font-size: .8em;
 }
 
+.text-left{
+  width: 45%;
+  display: flex;
+  justify-content: center;
+}
+
+.text-alignment{
+  margin: 2em 0 0 6em;
+}
+
+/*
 .gathered-container{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /*text-align: center;*/
+  text-align: center;
   align-self: center;
-}
+}*/
 
 .p-subtitles{
   width:  19em;
