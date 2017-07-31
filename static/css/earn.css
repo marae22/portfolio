@@ -52,7 +52,16 @@ p{
   font-family: futura-pt, sans-serif;
   font-style: normal;
   font-weight: 300;
-  width: 95vw;
+  width: 94vw;
+  text-align: center;
+}
+
+.text-center>p{
+  width: 85vw;
+}
+
+.contact-container>div>p{
+  width: 60vw;
 }
 
 .screenshot-container{
@@ -303,9 +312,8 @@ h6{
 .bold-titles{
   font-size: 2em;
   font-weight: bold;
-  margin-top: 1em;
+  margin-top: -1em;
   text-align: center;
-
 }
 
 .final-title{
@@ -432,6 +440,16 @@ h6{
   /*width: 18em;*/
 }
 
+
+
+
+.overviewSections {
+    font-size: .8em;
+    text-align: left;
+    width: 73vw;
+    margin-left: 2.3em;
+}
+
 .bg-img{
   background-image: url("/earn-img/initial-sketches.png");
   background-repeat: no-repeat;
@@ -531,14 +549,16 @@ h6{
   font-size: .8em;
 }
 
-.text-left{
-  width: 45%;
-  display: flex;
-  justify-content: center;
+.text-alignment{
+  width: 90vw;
+  margin-left:.5em;
+  text-align: center;
 }
 
-.text-alignment{
-  margin: 2em 0 0 6em;
+.text-alignment2{
+  width: 90vw;
+  text-align: center;
+  margin-left: .5em;
 }
 
 /*

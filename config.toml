@@ -26,7 +26,6 @@ publishDir = "../website"
 	# The path must be relative to the static folder
 	favicon = "images/favicon.png"
 
-
 	# Navigation
 	[params.navigation]
 		brand = "images/logo1.png"

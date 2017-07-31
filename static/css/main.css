@@ -20,6 +20,13 @@ body{
   color: #09BC8A;
   border: 0px;
 }
+
+.navbar-default {
+  border-color: black;
+  background-color: black;
+  opacity: 0.6;
+}
+
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
   background-color: transparent;
@@ -40,8 +47,9 @@ body{
   opacity: 0.8;
 }
 .navbar-default.affix {
-  border-color: transparent;
-  background-color: transparent;
+  border-color: black;
+  background-color: black;
+  opacity: 0.6;
 }
 .navbar-default.affix-top {
   border-color: transparent;
