@@ -54,6 +54,7 @@ p{
   font-weight: 300;
   width: 94vw;
   text-align: center;
+  margin-bottom: 2em;
 }
 
 .text-center>p{
@@ -61,7 +62,13 @@ p{
 }
 
 .contact-container>div>p{
-  width: 60vw;
+  width: 30vw;
+  margin-left: 3em;
+}
+
+.screenshot{
+  width: 90%;
+  margin-left: 1.2em;
 }
 
 .screenshot-container{
@@ -92,6 +99,9 @@ h4{
   font-family: futura-pt, sans-serif;
   font-style: normal;
   font-weight: 300;
+  font-size: 15px;
+  text-align: center;
+  width: 80%;
 }
 
 h6{
@@ -166,7 +176,7 @@ h6{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 1.5em;
+  margin-top: 2em;
 }
 
 .must-icon-container>img{
@@ -239,7 +249,7 @@ h6{
   flex-direction: row;
   align-items: center;
   margin-left: 1.1em;
-  margin-bottom: 3em;
+  margin-bottom: 5em;
 }
 
 .tools-container4>img{
@@ -383,6 +393,7 @@ h6{
 
 .pie{
   width: 60%;
+  margin-bottom: .5em;
 }
 
 
@@ -396,26 +407,22 @@ h6{
   font-size: 1.1rem;
 }
 
-.researchDesign>p{
-  font-size: 16px;
-}
-
 .frequent-apps-title{
-  margin: 1em 0 0 0;
-  text-align: left;
+  margin: 1em 0 0 2em;
+  /*text-align: center;*/
 }
 
 .p-android{
   text-align: left;
   width: 20em;
-  margin: .5em 0 0 0;
+  margin: 1em 0 2em 0;
   font-size: 15px;
 }
 
 .pie-text{
   text-align: left;
   width: 21em;
-  margin-top: 1em;
+  margin-top: .5em;
   text-align: center;
   font-size: 15px;
 }
@@ -423,11 +430,11 @@ h6{
 .android-img{
   width: 20%;
   float: left;
-  margin: -1em 1em 0 2em;
+  margin: 0 1em 0 2em;
 }
 
 .together{
-  margin: 3rem 0 1em 0;
+  margin: 3rem 0 2em 0;
   width: 100%;
 }
 
@@ -436,12 +443,10 @@ h6{
 }
 
 .white-text{
-  color: #fff;
-  /*width: 18em;*/
+  color: #333;
+  width: 23em;
+  margin-left: 1em;
 }
-
-
-
 
 .overviewSections {
     font-size: .8em;
@@ -521,7 +526,7 @@ h6{
 .sub-titles2{
   font-size: 1.2em;
   text-align: center;
-  color: #fff;
+  color: #333;
 }
 
 .sub-titles3{
@@ -561,14 +566,10 @@ h6{
   margin-left: .5em;
 }
 
-/*
+
 .gathered-container{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  align-self: center;
-}*/
+  margin-top: 4em;
+}
 
 .p-subtitles{
   width:  19em;

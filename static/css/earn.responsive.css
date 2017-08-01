@@ -3,6 +3,10 @@
 /*IPHONE 6*/
 @media (min-width:370px) {
 
+  .overviewSections{
+    width: 79vw;
+  }
+
   p{
     font-size: 1.1rem;
     text-align: center;
@@ -15,12 +19,16 @@
   .android-img{
     width: 20%;
     float: left;
-    margin: -1em 3em 0 1.5em;
+    margin: -1em 2.4em 0 2.5em;
   }
 
     .p-android{
       width: 23em;
       margin-bottom: 3em;
+    }
+
+    .android-container{
+      margin-top: 1em;
     }
 
   .freq-container>h6{
@@ -29,6 +37,13 @@
 
   .researchDesign>p{
     font-size: 1.5rem;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .frequent-apps-title{
+    margin-bottom: 1em;
+    margin-top: 2em;
   }
 
   .sub-container{
@@ -38,18 +53,24 @@
   .pie-container{
     flex-direction: row;
     justify-content: center;
+    margin-top: .5em;
   }
 
   .pie-text{
     text-align: left;
+    width: 80%;
   }
 
   .tools-container4{
-    margin-bottom: 1em;
+    margin-bottom: 5em;
   }
 
   .section-container>p{
     text-align: left;
+  }
+
+  .white-text{
+    margin-left: 5em;
   }
 
 }
@@ -57,21 +78,31 @@
 /*IPHONE 6 Plus*/
 @media (min-width: 410px) {
 
+  p{
+    font-size: 1.3rem;
+  }
+
+  .screenshot{
+    margin-left: 1.5em;
+  }
+
   .android-img{
-    width: 25%;
-    margin: -1.5em 2em 2em 3em;
+    margin: 0 3em 2em 4em;
   }
 
   .p-android{
     width: 25em;
+    margin-top: 2em;
   }
 
   .pie-text{
     width: 15em;
+    margin-left: -1em;
   }
 
   .pie{
-    width: 70%;
+    width: 50%;
+    margin-left: 1em;
   }
 
   .freq-container>img{
@@ -79,7 +110,7 @@
   }
 
   .freq-container>h6{
-    font-size: 1.3rem
+    font-size: 1.2rem
   }
 
   .must-icon-container>img{
@@ -87,15 +118,13 @@
   }
 
   .must-icon-container>h6{
-    font-size: 1.3rem;
-  }
-
-  .ovtitles{
-    margin-left: 0;
+    font-size: 1.2rem;
   }
 
   .overviewSections{
     align-self: flex-start;
+    margin-left: 3rem;
+    font-size: 1.3rem;
   }
 
   .tools-container4{
@@ -105,10 +134,35 @@
   }
 
   .tools-container4>img{
-    width: 25%;
-    margin-right: 1em;
+    width: 35%;
+    margin-right: 3em;
   }
 
+  .white-text{
+    margin-left: 1em;
+    width: 95%;
+  }
+
+  .overview{
+    margin-left: 1.2em;
+  }
+
+  .sub-container>p{
+    width:85%;
+    margin-left: 2.2em;
+  }
+
+  .contact-container>div>p{
+    width: 27vw;
+    margin-right: 3.5em
+  }
+  .contact-container{
+    flex-direction: row;
+  }
+
+  .text-center>p{
+    margin-left: .5em;
+  }
 
 }
 
@@ -120,12 +174,7 @@
     }
 
     header{
-      height: 90vh;
-    }
-
-    .overview {
-      width: 30em;
-      margin-left: 5em;
+      height: 80vh;
     }
 
     .icon-title-container{
@@ -140,8 +189,14 @@
       font-size: 1.8rem;
     }
 
+    .screenshot{
+      width: 80%;
+      margin-left: 3.8em;
+      margin-bottom: 5em;
+    }
+
     .pie{
-      width: 70%;
+      width: 55%;
       margin-bottom: 1em;
     }
 
@@ -150,27 +205,41 @@
       width: 25em;
     }
 
-    .android-img{
-      width: 16%;
-      float: left;
-      margin: -2em 1.5em .5em 2em;
+
+    .text-alignment{
+      margin-left: 2em;
+      margin-bottom: 1em;
+    }
+
+    .text-alignment2{
+      margin-left: 2em;
+      margin-bottom: 1em;
     }
 
     p{
       font-weight: 300;
-      width: 35em;
+      width: 90vw;
       margin-bottom: 3.5em;
+      margin-left: 2em;
+    }
+
+    .android-img{
+      width: 15%;
+      float: left;
+      margin: -.5em 2em 1.5em 4em;
     }
 
     .p-android{
-      width: 30em;
-      margin-top: 2em;
-      margin-bottom: 2em;
-      font-size: 18px;
+      width: 33em;
+      margin: 2em 0 3em 0;
+      font-size: 1.7rem;
     }
 
     .pie-text{
       font-weight: 300;
+      margin-top: 3em;
+      margin-left: .5em;
+      font-size: 1.7rem;
     }
 
     .freq-container>img{
@@ -189,15 +258,20 @@
       font-size: 1.4rem;
     }
 
+    #prototype{
+      margin-top: 2em;
+    }
+
     .overview{
       flex-direction: row;
       width: 20em;
-      margin-left: 0;
+      margin-left: 2em;
       justify-content: flex-start;
     }
 
     .section-container{
-      margin-left: .9em;
+      display: flex;
+      flex-direction: column;
     }
 
     .section-container>p{
@@ -218,7 +292,8 @@
     }
 
     .ovtitles{
-      align-self: center;
+      align-items: center;
+      margin-left: 1em;
     }
 
     .bg-img{
@@ -229,50 +304,12 @@
       width:65%;
     }
 
-    .screenshot{
-      width: 84%;
-    }
-
-    .sub-container{
-      align-self: center;
-      width: 25em;
-    }
-
-    .sketch-container{
-      margin-bottom: 0;
-    }
-
-    .sketch-container>div>img{
-      width: 100%;
-    }
-
-    .sketch-container>div {
-      flex: 1 0 0%;
-      min-width: 65%;
-      margin-left: 0;
-      padding-top: .5em;
-    }
-
     .must-icon-container>img{
       height: 5.5em;
     }
 
-    #final-size{
-      height: 100%;
-      margin-bottom: 0;
-    }
-
-    .synthesis1{
-      margin: 0 5rem 0 0;
-    }
-
-    .synthesis2{
-      float: left;
-      margin: -19em 0 0 2em;
-    }
-
-    .synthesis3{
-      margin: -10rem 3rem 0 0;
+    .final-space{
+      margin-top: 3em;
     }
 
     .research-title{
@@ -294,22 +331,65 @@
       font-weight: 400;
     }
 
+    .code-contianer{
+      width: 95%;
+    }
+
+    .contact-container>div>p{
+      width: 30vw;
+      margin-right: 3em;
+    }
+
+    .text-center>p{
+      margin-left: 3em;
+    }
+
 }
 
 /*LANDSCAPE IPHONE 6*/
 @media (min-width: 665px) {
+
+  p{
+    font-size: 1.5rem;
+  }
+
+  .sub-titles{
+    font-size: 2rem;
+  }
+
+  .sub-titles2{
+    font-size: 2rem;
+    margin-bottom: .6em;
+  }
+
+  .bold-titles{
+    font-size: 2.2em;
+  }
+
+  hr{
+    margin-bottom: 3em;
+  }
 
   .credit1{
     font-size: 1.2rem;
   }
 
   .overview{
-    width: 40em;
-    justify-content: center;
+    width: 90vw;
+    margin-left: 2.8em;
+  }
+
+
+  .section-container{
+    margin-left: 1.5em;
   }
 
   section{
     padding: 0;
+  }
+
+  header{
+    height: 84%;
   }
 
   h4{
@@ -317,27 +397,37 @@
     font-size: 2.1rem;
   }
 
+  .screenshot{
+    margin-left: 4.8em;
+  }
+
   .research-title{
     margin: auto;
   }
 
+  .android-pie-conatiner{
+    margin-top: -1.5em;
+  }
+
   .pie-text{
     font-weight: 300;
-    margin-left: 2em;
+    margin-left: 1em;
   }
 
   .android-img{
-    width: 15%;
-    margin: -2.5em 2em 1em 4em;
+    width: 14%;
+    margin: -1.5em 5em 1em 5em;
   }
 
   .p-android{
     margin-top: 1.5em;
-    width: 32em;
+    width: 35em;
   }
 
   .pie{
     width: 45%;
+    margin-left: 1em;
+    margin-right: 1em;
   }
 
   .frequent-apps-title{
@@ -345,19 +435,19 @@
   }
 
   .freq-container>img{
-    height: 6em;
+    height: 5em;
   }
 
   .freq-container>h6{
-    font-size: 1.8rem;
+    font-size: 1.3rem;
   }
 
   .must-icon-container>img{
-    height: 6em;
+    height: 5em;
   }
 
   .must-icon-container>h6{
-    font-size: 1.8rem;
+    font-size: 1.3rem;
   }
 
   .icon-title-container>img{
