@@ -105,6 +105,10 @@
     margin-left: 1em;
   }
 
+  .test-icon-container>img{
+    height: 4em;
+  }
+
   .freq-container>img{
     height: 4em;
   }
@@ -465,7 +469,7 @@
 }
 
 /*LANDSCAPE IPHONE 6 Plus*/
-@media (min-width: 735px){
+@media (min-width: 735px) {
   section{
     padding: 0;
   }
@@ -704,7 +708,7 @@
   }
 
   .bg-img{
-    height: 46vh;
+    height: 35vh;
   }
 
   .code{
@@ -774,7 +778,7 @@
   }
 
   header{
-    height: 60%;
+    height: 42%;
   }
 
   .overview {
@@ -866,6 +870,10 @@
     width: 100%;
   }
 
+  .test-icon-container>img{
+    height: 6em;
+  }
+
   .freq-container>img{
     height: 6em;
   }
@@ -892,10 +900,6 @@
 
   .icon-title-container2{
     flex-direction: column;
-  }
-
-  .icon-title-container2>img{
-    height: 6em;
   }
 
   .sketch-container {
@@ -928,10 +932,6 @@
     margin-bottom: 3em;
   }
 
-  .bg-img{
-    height: 40vh;
-    margin-bottom: 5em;
-  }
 
   .insigt-container>h4 {
     margin: 0 0 1.5em 0;
@@ -1003,15 +1003,232 @@
     margin-bottom: 2em;
   }
 
+  .bg-img{
+    height: 60vh;
+  }
+
 }
+
+/*IPAD PRO*/
+@media (min-width: 1022px) {
+  .bg-img{
+    height: 48vh;
+  }
+
+  .screenshot{
+    margin-left: 7.5em;
+  }
+}
+
 /*IPAD PRO LANDSCAPE*/
-@media (min-width:1360px){
-}
-/*DESKTOP 1400*/
-@media (min-width:1400px){
+@media (min-width:1360px) {
 
   header{
-    height: 65vh;
+    height: 50vh;
+  }
+
+  .overview{
+    padding: 1em 0 1em 0;
+  }
+
+  .ovtitles{
+    font-size: 2.5rem;
+    margin-left: 3.5em;
+    margin-bottom: .5em;
+  }
+
+  .overview>div>p{
+    width: 28vw;
+    font-size: 1.6rem;
+  }
+
+  .role>p{
+    font-size: 3rem;
+    margin: 0;
+    padding: 2em 0 2em 0;
+  }
+
+  .bg-img{
+    margin-bottom: 7em;
+  }
+
+  .screenshot{
+    width: 100%;
+    margin: 4em 0 12em -9em;
+  }
+
+  .android-pie-conatiner{
+    margin-bottom: 6em;
+    margin-top: 3em;
+  }
+
+  .pie-container{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    /*margin-left: 2em;*/
+  }
+
+  .pie{
+    margin: 0;
+    align-items: center;
+    width: 110%;
+  }
+
+  .pie-text{
+    font-size:2.5rem;
+    width: 13em;
+    text-align: center;
+    margin-left: 0;
+    margin-bottom: -.5em;
+    margin-top: .5em;
+  }
+
+  .android-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10em;
+    margin-right: 26em;
+  }
+
+  .p-android{
+    font-size: 2.5rem;
+    width: 13em;
+    text-align: center;
+    margin: 0;
+  }
+
+  .android-img{
+    width: 50%;
+    margin: 0;
+  }
+
+  .researchDesign>p{
+    font-size: 2.5rem;
+  }
+
+  .freq-container>img{
+    height: 8em;
+  }
+
+  .freq-container>h6{
+    font-size: 2rem;
+  }
+
+  .must-icon-container>img{
+    height: 8em;
+  }
+
+  .must-icon-container>h6{
+    font-size: 2rem;
+  }
+
+  p{
+    font-size: 2.1rem;
+    width: 70%;
+  }
+
+  .p-subtitles{
+    width: 80vw;
+    margin-left: 18em;
+  }
+
+  .white-text{
+    width: 60vw;
+  }
+
+  .test-icon-container>img{
+    height: 8em;
+  }
+
+  .test-icon-container>h6{
+    font-size: 2rem;
+  }
+
+  .credit1{
+    font-size: 1.8rem;
+  }
+
+  .tools-container4>img{
+    margin-bottom: 4em;
+  }
+
+  .code{
+    margin-left: 5em;
+    margin-bottom: 9em;
+  }
+
+  .title-container{
+    margin-top: 13em;
+  }
+
+  .text-left{
+    width: 43%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .text-right{
+    float: right;
+  }
+
+  .text-alignment{
+    margin: 8em 0 0 3em;
+  }
+
+  .text-alignment2{
+    margin: 8em 7em 0 0;
+    width: 25vw;
+  }
+
+  .container>div>div>p{
+    margin: -1.5em 0 2em 0;
+  }
+
+
+  .left-set{
+    width: 48%;
+    margin: 0 0 0 2em;
+  }
+
+  .right-set{
+    width: 48%;
+    margin: 0 2em 0 0;
+  }
+
+  .final-space{
+    margin-top: 55em;
+  }
+
+  .slideshow-container{
+    width: 90%;
+  }
+
+  .gathered-container{
+    margin-top: 10em
+  }
+
+  .conclusion-text{
+    margin-left: 9.5em;
+  }
+
+  .site-button{
+    padding: 15px 50px 15px 50px;
+    font-size: 1.3em;
+  }
+
+  .credit1{
+    margin-left: 11em;
+  }
+
+}
+
+/*DESKTOP 1400*/
+@media (min-width:1400px) {
+
+  header{
+    height: 70vh;
   }
 
   .bg-overview{
@@ -1019,29 +1236,38 @@
     padding-bottom: 2em;
   }
 
+  .ovtitles{
+    margin-left: 5em;
+  }
+
+  .overview>div>p{
+    width: 30vw;
+  }
+
   .role>p{
-    width: 39em;
-    font-size: 2.5rem;
+    width: 30em;
+    font-size: 3rem;
   }
 
   .screenshot{
-    width: 60%;
+    width: 100%;
+    margin-left: 0;
   }
 
-  .android-pie-conatiner>div {
-    margin-left: 16em;
+  .screenshot-container{
+    justify-content: center;
+  }
+
+  .android-container{
+    margin-left: 13em;
   }
 
   .pie {
     width: 90%;
   }
 
-  .together{
-    width: 100vw;
-  }
-
   .bg-img{
-    height: 70vh;
+    height: 75vh;
     margin-bottom: 6em;
   }
 
@@ -1069,18 +1295,6 @@
     margin-bottom: 5em;
   }
 
-  .text-alignment{
-    margin-left: 6.7em;
-    margin-top: 10em;
-    margin-bottom: 10em;
-  }
-
-  .text-alignment2{
-    margin-left: 4em;
-    margin-top: 10em;
-    margin-bottom: 10em;
-  }
-
   .container>div>div>p{
     margin-left: 3em;
   }
@@ -1090,8 +1304,42 @@
     margin-bottom: 4em;
   }
 
-  .overview>div>p {
-    width: 22vw;
+  .text-left{
+    width: 43%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .text-right{
+    float: right;
+  }
+
+  .text-alignment{
+    margin: 8em 0 0 3em;
+  }
+
+  .text-alignment2{
+    margin: 8em 7em 0 0;
+    width: 25vw;
+  }
+
+  .container>div>div>p{
+    margin: -1.5em 0 2em 0;
+  }
+
+
+  .left-set{
+    width: 50%;
+    margin: 0 10px 0 0;
+  }
+
+  .right-set{
+    width: 50%;
+    margin: 0;
+  }
+
+  .final-space{
+    margin-top: 60em;
   }
 
 }
