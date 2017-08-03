@@ -473,6 +473,7 @@
   .overview{
     justify-content: space-around;
     width: 100%;
+    margin-left: 0;
   }
 
   .section-container{
@@ -492,17 +493,20 @@
   }
 
   .screenshot{
-    margin: 1em 0;
+    margin-left: 5.5em;
   }
 
   .p-android{
     width: 33em;
-    font-size: 2.2rem;
   }
 
   .android-img{
     margin-left: 4em;
     margin-right: 3em;
+  }
+
+  .pie{
+    width: 60%;
   }
 
   .sub-titles{
