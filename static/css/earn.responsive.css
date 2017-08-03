@@ -496,17 +496,38 @@
     margin-left: 5.5em;
   }
 
-  .p-android{
-    width: 33em;
+  .pie-text{
+    font-weight: 300;
+    font-size: 2rem;
   }
 
   .android-img{
-    margin-left: 4em;
-    margin-right: 3em;
+    width: 15%;
+    margin: -1.5em 5em 2em 6.5em;
+  }
+
+  .p-android{
+    margin-top: 1.5em;
+    width: 35em;
+    font-size: 2rem;
   }
 
   .pie{
-    width: 60%;
+    width: 55%;
+    margin-left: 4.5em;
+    margin-right: 2em;
+  }
+
+  .freq-container>img{
+    height: 6em;
+  }
+
+  .researchDesign>p{
+    font-size: 2rem;
+  }
+
+  .white-text{
+    margin-bottom: 2em;
   }
 
   .sub-titles{
@@ -521,32 +542,62 @@
     font-size: 4rem;
   }
 
-  .researchDesign>p{
-    font-size: 2.2rem;
-  }
-
   h4{
     font-size: 2.2rem;
   }
 
-  .right-set{
-    width: 50%;
+  .text-left{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .text-right{
+    float: right;
+  }
+
+  .text-alignment{
+    margin: 5em 0 0 3em;
+  }
+
+  .text-alignment2{
+    margin: 5em 5em 0 0;
+    width: 35vw;
   }
 
   .left-set{
-    width: 50%;
+    width: 45%;
+    margin: 0 0 0 2.3em;
   }
+
+  .right-set{
+    width: 45%;
+    margin: 0 3em 0 0;
+  }
+
+  .final-space{
+      margin-top: 26em;
+  }
+
+  .conclusion-text{
+    margin-top: 2em;
+  }
+
 }
 
 /*IPAD*/
-@media (min-width:765px) {
+@media (min-width:760px) {
   header{
-    min-height: 42%;
-    height: 60vh;
+    min-height: 30%;
+    height: 45vh;
   }
 
   .bold-titles{
     font-size: 5.5rem;
+  }
+
+  .screenshot{
+    margin-bottom: 9em;
   }
 
   hr{
@@ -557,25 +608,16 @@
     font-size: 1.7em;
   }
 
-  .p-android{
-    font-size: 2.5rem;
-    width: 30em;
+  .title-container{
+    margin-top: 8em;
   }
 
-  .freq-container>img{
-    height: 6.5em;
+  .title-container2{
+    margin-top: 0;
   }
 
-  .freq-container>h6{
-    font-size: 2rem;
-  }
-
-  .must-icon-container>img{
-    height: 6.5em;
-  }
-
-  .must-icon-container>h6{
-    font-size: 2rem;
+  .gathered-container{
+    margin-top: 8em;
   }
 
   h4{
@@ -589,30 +631,66 @@
   .android-pie-conatiner{
     display: flex;
     flex-direction: row;
+    margin-left: 2em;
   }
 
-  .android-pie-conatiner>div{
-    margin-left: 6em;
-    align-self: center;
+  .android-container{
+    display: flex;
+    flex-direction: column;
   }
 
-
-  .pie{
-    width: 95%;
+  .android-img{
+    width: 27%;
+    align-items: center;
+    margin: 0 5em 1em 10em;
   }
-
-
 
   .p-android{
-    margin-bottom: 0;
+    margin: 0 0 1em 5em;
+    width: 12em;
+    font-size: 2rem;
   }
 
+  .pie-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pie{
+    width: 50%;
+    align-items: center;
+    margin: 0 5em 1em 0;
+  }
+
+  .pie-text{
+    margin: 0 0 1em 0;
+    width: 12em;
+    font-size: 2rem;
+  }
+
+
   .researchDesign>p{
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .credit1{
     font-size: 1em;
+  }
+
+  .freq-container>img{
+    height: 6em;
+  }
+
+  .freq-container>h6{
+    font-size: 1.3rem;
+  }
+
+  .must-icon-container>img{
+    height: 6.5em;
+  }
+
+  .must-icon-container>h6{
+    font-size: 2rem;
   }
 
   .site-button{
@@ -633,8 +711,18 @@
     width: 75%;
   }
 
-  .sketch-container{
-    height: 100%;
+  .tools-container4{
+    margin-bottom: 9em;
+  }
+
+  .left-set{
+    width: 45%;
+    margin: 0 0 0 2.6em;
+  }
+
+  .right-set{
+    width: 45%;
+    margin: 0 2.9em 0 0;
   }
 
 }
@@ -652,30 +740,23 @@
     float: right;
   }
 
-  p{
-    width:  100vw;
-  }
-
   .text-alignment{
-    margin: 2em 0 0 6em;
+    margin: 6em 0 0 3em;
   }
 
   .text-alignment2{
-    margin: 2em 6em 0 0;
+    margin: 6em 5em 0 0;
+    width: 35vw;
   }
 
   .left-set{
     width: 45%;
-    margin: 0em 0 0 5em;
+    margin: 0 0 0 3.7em;
   }
 
   .right-set{
     width: 45%;
-    margin: 1em 5em 0 0;
-  }
-
-  .pie-container{
-    flex-direction: column;
+    margin: 0 3.7em 0 0;
   }
 
   h6{
@@ -705,12 +786,13 @@
   }
 
   .overview>div>p {
-    width: 30vw;
-    font-size: 1.7rem;
+    width: 25vw;
+    font-size: 1.5rem;
   }
 
   .ovtitles{
-    font-size: 2.5rem;
+    font-size: 2rem;
+    margin-left: 2.5em;
   }
 
   .bold-titles{
@@ -729,19 +811,24 @@
 
   .android-pie-conatiner{
     margin-bottom: 6em;
+    margin-top: 3em;
   }
 
-  .android-pie-conatiner>div{
-    margin-left: 7.5em;
+  .pie-container{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    /*margin-left: 2em;*/
   }
 
   .pie{
-    margin-bottom: 0;
+    margin: 0;
+    align-items: center;
     width: 80%;
   }
 
   .pie-text{
-    font-size:2.5rem;
+    font-size:2rem;
     width: 15em;
     text-align: center;
     margin-left: 0;
@@ -752,24 +839,25 @@
   .android-container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    margin-left: 9em;
+    margin-right: 10.8em;
   }
 
   .p-android{
-    font-size: 2.5rem;
+    font-size: 2rem;
     width: 13em;
     text-align: center;
-    margin-top: 0;
+    margin: 0;
   }
 
   .android-img{
-    width: 40%;
-    margin: 0 3em 1em 5em;
+    width: 50%;
+    margin: 0;
   }
 
   .researchDesign>p{
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .frequent-apps-title{
@@ -783,7 +871,7 @@
   }
 
   .freq-container>h6 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 
   .freq-container{
@@ -823,12 +911,7 @@
   }
 
   p{
-    width: 100vw;
     font-size: 1.8rem;
-  }
-
-  .p-subtitles{
-    width:100%;
   }
 
   .sub-titles2{
@@ -842,11 +925,11 @@
 
   .code{
     width: 80%;
+    margin-bottom: 3em;
   }
 
   .bg-img{
-    height: 59vh;
-    width: 100vw;
+    height: 40vh;
     margin-bottom: 5em;
   }
 
@@ -880,18 +963,6 @@
     justify-content: center;
   }
 
-  .text-alignment{
-    width: 27em;
-    text-align: left;
-    margin-top: 1em;
-  }
-
-  .text-alignment2{
-    width: 26em;
-    text-align: left;
-    margin-top: 1em;
-    margin-left: 1.5em;
-  }
 
   .final-space{
     margin-top: 40em;
