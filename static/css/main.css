@@ -44,12 +44,12 @@ body{
   content: '';
   background-color: #FFFFFF;
   position: absolute;
-  opacity: 0.8;
+  /*opacity: 0.8;*/
 }
 .navbar-default.affix {
   border-color: black;
   background-color: black;
-  opacity: 0.6;
+  /*opacity: 0.6;*/
 }
 .navbar-default.affix-top {
   border-color: transparent;

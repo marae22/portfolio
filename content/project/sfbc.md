@@ -8,7 +8,7 @@ projectDate = ""
 heroImage = "/sfbc/mainTitle.png"
 screenshot = "/sfbc/iphone.png"
 sectionTitle = "RESEARCH & DESIGN"
-css = ['/css/project.css', '/css/project.responsive.css', '/css/earn.css', '/css/project.responsive.css']
+css = ['/css/sfbc.css']
 
 listImage = "/images/sfbcTitle.png"
 

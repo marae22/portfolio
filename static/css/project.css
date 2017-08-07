@@ -55,3 +55,7 @@ h2{
 .hi-fi{
   width: 70vw;
 }
+
+.image-container {
+  overflow: hidden;
+}

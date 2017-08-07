@@ -1,4 +1,6 @@
-@import url("project.responsive.css");
+@import "earn.css";
+@import "project.responsive.css";
+
 /*MEDIA QUERYS*/
 /*IPHONE 6*/
 @media (min-width:370px) {

@@ -1,4 +1,4 @@
-@import url("project.css");
+@import "project.css";
 
 header{
   height: 45%;
@@ -129,7 +129,9 @@ h6{
 .tools-container{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
+  margin-bottom: 2em;
 }
 
 .icon-title-container{
@@ -973,4 +975,10 @@ h6{
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+
+/* remove Menu button from projects pages */
+i.navbar-toggle {
+  display: none;
 }
